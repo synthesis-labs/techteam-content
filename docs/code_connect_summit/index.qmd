@@ -275,3 +275,29 @@ function expandSpeaker(card) {
 }
 </script>
 ```
+
+```{=html}
+<!-- RSVP -->
+<section id="rsvp" class="ccs-section">
+  <div class="ccs-section-title">RSVP</div>
+  <div class="ccs-rsvp-box">
+    <p>Secure your spot for Code Connect Summit 2026.<br>June 5th · Synthesis Office JHB &amp; CPT · 09:00–16:30</p>
+    <a class="ccs-rsvp-btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">Register Now →</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="ccs-section">
+  <div class="ccs-section-title">Contact</div>
+  <div class="ccs-contact-text">
+    Questions? Reach out to the hosts:<br>
+    <a href="mailto:kieron@synthesis.co.za">kieron@synthesis.co.za</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ccs-footer">
+  <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
+  Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+</footer>
+```
