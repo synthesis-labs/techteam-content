@@ -49,12 +49,12 @@ title: "Code Connect Summit 2026"
 <!-- SCHEDULE -->
 <section id="schedule" class="ccs-section">
   <div class="ccs-section-title">Schedule</div>
-  <table class="ccs-schedule-table">
+  <table class="ccs-schedule-table" aria-label="Conference schedule">
     <thead>
       <tr>
-        <th>Time</th>
-        <th>Session</th>
-        <th>Presenter(s)</th>
+        <th scope="col">Time</th>
+        <th scope="col">Session</th>
+        <th scope="col">Presenter(s)</th>
       </tr>
     </thead>
     <tbody>
@@ -83,11 +83,11 @@ title: "Code Connect Summit 2026"
       </tr>
       <tr class="ccs-row-break">
         <td class="ccs-time">10:50–11:10</td>
-        <td colspan="2">☕ Break</td>
+        <td colspan="2"><span aria-hidden="true">☕</span> Break</td>
       </tr>
       <tr class="ccs-row-special">
         <td class="ccs-time">11:10–11:55</td>
-        <td>
+        <td colspan="2">
           <span class="ccs-talk-title">Panel: The Future of Software Engineering in the Age of AI</span>
           <span class="ccs-talk-sub">Facilitated by Kieron &amp; Archie &nbsp;·&nbsp; Panelists: Tom, Tjaard, Marais, MikeG</span>
           <ol class="ccs-panel-questions">
@@ -99,7 +99,6 @@ title: "Code Connect Summit 2026"
             <li>Are we moving toward fewer engineers with higher leverage, or fundamentally different roles altogether?</li>
           </ol>
         </td>
-        <td></td>
       </tr>
       <tr>
         <td class="ccs-time">12:00–12:30</td>
@@ -108,7 +107,7 @@ title: "Code Connect Summit 2026"
       </tr>
       <tr class="ccs-row-break">
         <td class="ccs-time">12:30–13:30</td>
-        <td colspan="2">🍽 Lunch Break</td>
+        <td colspan="2"><span aria-hidden="true">🍽</span> Lunch Break</td>
       </tr>
       <tr>
         <td class="ccs-time">13:30–14:00</td>
@@ -127,7 +126,7 @@ title: "Code Connect Summit 2026"
       </tr>
       <tr class="ccs-row-break">
         <td class="ccs-time">15:40–16:00</td>
-        <td colspan="2">☕ Break</td>
+        <td colspan="2"><span aria-hidden="true">☕</span> Break</td>
       </tr>
       <tr>
         <td class="ccs-time">16:00–16:30</td>
