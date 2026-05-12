@@ -146,12 +146,12 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Tom.png" alt="Tom"></div>
         <div class="ccs-speaker-name">Tom</div>
         <div class="ccs-speaker-talk">Keynote</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Tom.png" alt="Tom"></div>
         <div>
           <div class="ccs-speaker-bio-name">Tom</div>
           <div class="ccs-speaker-bio-talk">Keynote</div>
@@ -162,14 +162,14 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
-        <div class="ccs-speaker-name">Vincent &amp; Enoch</div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Vincent.png" alt="Vincent"></div>
+        <div class="ccs-speaker-name">Vincent</div>
         <div class="ccs-speaker-talk">Streaming in a High-Pressure Environment</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Vincent.png" alt="Vincent"></div>
         <div>
-          <div class="ccs-speaker-bio-name">Vincent &amp; Enoch</div>
+          <div class="ccs-speaker-bio-name">Vincent</div>
           <div class="ccs-speaker-bio-talk">Streaming in a High-Pressure Environment (i.e. Fraud)</div>
           <div class="ccs-speaker-bio-text">Bio coming soon.</div>
         </div>
@@ -178,14 +178,30 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
-        <div class="ccs-speaker-name">Marcus &amp; Massimo</div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Enoch.png" alt="Enoch"></div>
+        <div class="ccs-speaker-name">Enoch</div>
+        <div class="ccs-speaker-talk">Streaming in a High-Pressure Environment</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Enoch.png" alt="Enoch"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Enoch</div>
+          <div class="ccs-speaker-bio-talk">Streaming in a High-Pressure Environment (i.e. Fraud)</div>
+          <div class="ccs-speaker-bio-text">Bio coming soon.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
+        <div class="ccs-speaker-name">Marcus</div>
         <div class="ccs-speaker-talk">LLM in Document Understanding</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
         <div>
-          <div class="ccs-speaker-bio-name">Marcus &amp; Massimo</div>
+          <div class="ccs-speaker-bio-name">Marcus</div>
           <div class="ccs-speaker-bio-talk">LLM in Document Understanding</div>
           <div class="ccs-speaker-bio-text">Bio coming soon.</div>
         </div>
@@ -194,12 +210,28 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Massimo.png" alt="Massimo"></div>
+        <div class="ccs-speaker-name">Massimo</div>
+        <div class="ccs-speaker-talk">LLM in Document Understanding</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Massimo.png" alt="Massimo"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Massimo</div>
+          <div class="ccs-speaker-bio-talk">LLM in Document Understanding</div>
+          <div class="ccs-speaker-bio-text">Bio coming soon.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Rodney.png" alt="Rodney"></div>
         <div class="ccs-speaker-name">Rodney</div>
         <div class="ccs-speaker-talk">Running Kubernetes at Home the Easy Way</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Rodney.png" alt="Rodney"></div>
         <div>
           <div class="ccs-speaker-bio-name">Rodney</div>
           <div class="ccs-speaker-bio-talk">Running Kubernetes at Home the Easy Way, Because Overcomplicating Things Is a Lifestyle Choice</div>
@@ -210,12 +242,12 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Tjaard.png" alt="Tjaard"></div>
         <div class="ccs-speaker-name">Tjaard</div>
         <div class="ccs-speaker-talk">Building a Roblox Game with My Son</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Tjaard.png" alt="Tjaard"></div>
         <div>
           <div class="ccs-speaker-bio-name">Tjaard</div>
           <div class="ccs-speaker-bio-talk">Building a Roblox Game with My Son — What Broke, What Scaled, What Didn't</div>
@@ -226,12 +258,12 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Nick.png" alt="Nick Driver"></div>
         <div class="ccs-speaker-name">Nick Driver</div>
         <div class="ccs-speaker-talk">Self-Healing Codebases</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Nick.png" alt="Nick Driver"></div>
         <div>
           <div class="ccs-speaker-bio-name">Nick Driver</div>
           <div class="ccs-speaker-bio-talk">Self-Healing Codebases</div>
@@ -242,15 +274,47 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"></div>
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Jason.png" alt="Jason"></div>
         <div class="ccs-speaker-name">Jason</div>
         <div class="ccs-speaker-talk">Workshop: Smart Trainer</div>
       </div>
       <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo">Photo coming soon</div>
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Jason.png" alt="Jason"></div>
         <div>
           <div class="ccs-speaker-bio-name">Jason</div>
           <div class="ccs-speaker-bio-talk">Workshop: Smart Trainer — Realtime AI Fitness Trainer</div>
+          <div class="ccs-speaker-bio-text">Bio coming soon.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Host - Kieron.png" alt="Kieron"></div>
+        <div class="ccs-speaker-name">Kieron</div>
+        <div class="ccs-speaker-talk">Host &amp; MC</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Host - Kieron.png" alt="Kieron"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Kieron</div>
+          <div class="ccs-speaker-bio-talk">Host &amp; MC</div>
+          <div class="ccs-speaker-bio-text">Bio coming soon.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Host - Archie.png" alt="Archie"></div>
+        <div class="ccs-speaker-name">Archie</div>
+        <div class="ccs-speaker-talk">Host &amp; MC</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Host - Archie.png" alt="Archie"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Archie</div>
+          <div class="ccs-speaker-bio-talk">Host &amp; MC</div>
           <div class="ccs-speaker-bio-text">Bio coming soon.</div>
         </div>
       </div>
