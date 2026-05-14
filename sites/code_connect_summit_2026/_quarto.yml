@@ -1,0 +1,10 @@
+project:
+  output-dir: ../../dist/sites/code_connect_summit_2026
+
+format:
+  html:
+    theme: none
+    css: style.css
+    toc: false
+    embed-resources: true
+    page-layout: full

@@ -36,20 +36,24 @@ for doc_name in "${doc_names[@]}"; do
     exit 1
   fi
 
-  if [ ! -f "$doc_dir/$doc_name.md" ]; then
-    echo "Error: docs/$doc_name/$doc_name.md not found." >&2
+  if [ -f "$doc_dir/index.qmd" ]; then
+    entry="index.qmd"
+  elif [ -f "$doc_dir/$doc_name.md" ]; then
+    entry="$doc_name.md"
+  else
+    echo "Error: no index.qmd or $doc_name.md found in docs/$doc_name/." >&2
     exit 1
   fi
 
-  echo "Rendering: $doc_name"
+  echo "Rendering: $doc_name ($entry)"
 
   docker run --rm --platform linux/amd64 \
     -v "$ROOT:/workspace" \
     -w "/workspace/docs/$doc_name" \
     "$QUARTO_IMAGE" \
-    quarto render "$doc_name.md"
+    quarto render "$entry"
 
-  echo "  → dist/$doc_name/$doc_name.html"
+  echo "  → dist/$doc_name/"
 done
 
 echo ""
