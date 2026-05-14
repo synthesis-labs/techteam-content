@@ -33,8 +33,7 @@
   height: 36px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.95;
+  opacity: 0.9;
 }
 .cover-eyebrow {
   font-size: 0.75rem;
