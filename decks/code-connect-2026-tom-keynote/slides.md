@@ -104,7 +104,7 @@ class: text-center
 layout: section
 number: "01"
 title: Rethink the OS
-subtitle: The runtime environment wasn't built for this
+subtitle: The desktop environment wasn't built for this
 ---
 
 ---
@@ -114,14 +114,14 @@ subtitle: The runtime environment wasn't built for this
 <div class="grid grid-cols-2 gap-12 mt-4">
 <div>
 
-**Running in parallel, right now:**
+**Running in parallel:**
 - Building this presentation
 - Writing a strategy document
 - Simulating a new architecture
 - Writing the architecture review
 - Distilling it into a deck
 - Building a reference implementation
-- 1:1s, meetings, coffee
+- 1:1s, meetings, coffee, food
 
 </div>
 <div>
@@ -136,10 +136,6 @@ subtitle: The runtime environment wasn't built for this
 <div class="mt-4 text-muted text-sm">(Omarchy + Hyprland — seems like a great option!)</div>
 
 </div>
-</div>
-
-<div class="mt-6 text-muted text-sm italic">
-That's not a hypothetical workload. That's Tuesday.
 </div>
 
 ---
@@ -157,8 +153,8 @@ That's not a hypothetical workload. That's Tuesday.
 ---
 layout: section
 number: "02"
-title: Everything is a Pipeline
-subtitle: Source control isn't just for code
+title: Everything is now a Pipeline
+subtitle: Source control & DevOps isn't just for code
 ---
 
 ---
@@ -168,27 +164,28 @@ subtitle: Source control isn't just for code
 <BeforeAfter>
 <template #before>
 
-Draft in Word  
+→ Draft in Word  
 → Save to SharePoint  
 → Attach to email  
 → Send for review  
-→ 14 conflicting versions  
-→ Agents can't read any of it
+→ Receive updates  
+→ Merge 14 conflicting versions (really fun!)  
+→ Agents can't really help for any of this  
 
 </template>
 <template #after>
 
-Source text (Typst / Markdown)  
-→ Build pipeline  
+→ Source text (Typst / Markdown)  
+→ Build pipeline (text -> pdf / html / whatever)  
 → Committed to git  
-→ Published to GitHub Pages  
-→ Agents can read, diff, and collaborate
+→ Automatically published to GitHub Pages  
+→ Agents can read, diff, and collaborate - conflict-free  
 
 </template>
 </BeforeAfter>
 
 <Principle class="mt-4">
-Every artifact has source, a build, and a release. Treat it like software.
+Recognising that every artifact has a source, a build, and a release. Treat it like software.
 </Principle>
 
 ---
@@ -198,8 +195,8 @@ Every artifact has source, a build, and a release. Treat it like software.
 <BeforeAfter>
 <template #before>
 
-Analyst reads source docs privately  
-→ Synthesises findings on their laptop  
+→ Analyst reads source docs privately  
+→ Distils findings on their laptop  
 → Produces a report or deck  
 → Emails it out  
 → Reasoning is gone. Only the output survives.
@@ -207,7 +204,7 @@ Analyst reads source docs privately
 </template>
 <template #after>
 
-Source docs committed to git  
+→ Source docs committed to git  
 → Analysis as committed artifacts  
 → Findings → Recommendations → Published  
 → Every step traceable, diffable, reviewable
@@ -216,57 +213,8 @@ Source docs committed to git
 </BeforeAfter>
 
 <Principle class="mt-4">
-"Why did we recommend X?" should have a traceable answer in git history.
+"Why did we recommend X?" or "What information did we consider when we decided to do Y?"
 </Principle>
-
----
-
-# Old principles. New urgency.
-
-The principles software engineering accumulated over decades were always valuable. With agents producing code at velocity, they're load-bearing — every design decision now has a much larger blast radius.
-
-<div class="grid grid-cols-2 gap-x-10 gap-y-2 mt-6 text-sm">
-<div>
-
-**DRY** — a duplicated pattern used to be copy-paste fatigue; now it multiplies at the rate the agent can type.
-
-**Impossible states unrepresentable** — the compiler rejects what code review might miss. Encode invariants once.
-
-**The right abstraction** — a wrong one used to live in 200 lines; now it propagates across the codebase in an afternoon.
-
-**Developer experience** — the agent IS the developer. Clear APIs and good errors compound on every invocation.
-
-**Least surprise** — the agent infers behaviour from names and conventions. Consistency is now correctness.
-
-**Locality of behaviour** — agents read in windows; code that changes together should live together.
-
-**Parse, don't validate** — push invariants into the type at the boundary, not deep inside the function.
-
-**Explicit over implicit** — agents misread magic constantly. Less clever, more correct.
-
-</div>
-<div>
-
-**YAGNI** — agents over-engineer by default; the constraint pulls them back to the actual requirement.
-
-**Single source of truth** — duplication is drift waiting to happen. No two definitions of "user".
-
-**Encapsulation** — smaller public surface area means fewer ways for the agent to misuse it.
-
-**Separation of concerns** — when something goes wrong, the blast radius should be bounded.
-
-**Tests as executable specifications** — agents can run them. Specs become a fitness function for the loop.
-
-**Boring technology** — agents have stronger priors on common, well-documented tools. Novelty is a tax.
-
-**Total functions** — no partial cases for the agent to forget to handle.
-
-</div>
-</div>
-
-<div class="mt-6 text-center text-muted text-sm italic">
-Engineering taste was a productivity multiplier. With agents, it's a survival trait.
-</div>
 
 ---
 
@@ -284,11 +232,11 @@ Engineering taste was a productivity multiplier. With agents, it's a survival tr
 </div>
 <div>
 
-**We should be acting like engineering managers of our own work:**
+**We should be acting like engineering managers & process engineers of our own work:**
 - Source-controlled inputs and outputs
 - Repeatable, reviewable processes
 - Agents as team members, not tools
-- Humans in the loop via pull request
+- Humans in the loop (maybe thru PRs, quality gates, etc)
 
 </div>
 </div>
@@ -299,38 +247,38 @@ Engineering taste was a productivity multiplier. With agents, it's a survival tr
 </div>
 
 <Principle class="mt-4">
-If your day job produces documents and decisions, you already have a codebase. You just haven't treated it like one yet.
+If your day job produces or updates documents, presentations and reports resulting in decisions, you already have a codebase. You just haven't treated it like one yet!
 </Principle>
 
 ---
 
-# Skills are the distribution mechanism
+# Skills are the unit of work
 
-Once you have a pipeline — source format, build toolchain, repo structure, publish step — you can encode it as a skill. Every agent that picks up that skill gets the whole pipeline for free.
+Committing a human process to an agentic one needs an encoding — somewhere the steps, tools, and acceptable outputs are written down so the agent can run it. Everyone should be capable of building one. *A modern day spreadsheet formula!*
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 <div>
 
-**Without skills:**
-- Each agent reinvents the approach
-- Inconsistent structure across projects
-- Good practices live in one person's head
-- Every new project starts from scratch
+**What a skill captures:**
+- The steps of a process
+- The tools and conventions to use
+- The shape of acceptable outputs
+- Where to find context
+- How to resolve conflicts in process
 
 </div>
 <div>
 
-**With a `proposal-document`, `architecture-review`, `technical-talk` skill:**
-- Pipeline is defined once, used everywhere
-- Agents and humans follow the same process
-- Practices spread across teams automatically
-- The skill improves; every project benefits
+**Benefits:**
+- The single, runnable unit of work
+- Shareable and distributable across teams
+- Versioned, reviewable, improvable
 
 </div>
 </div>
 
 <Principle class="mt-6">
-You write the SDLC once. The skill carries it everywhere.
+The skill is the encoding. Once it exists, the process becomes portable and extendable. Not possible for previously human only processes!
 </Principle>
 
 ---
@@ -341,10 +289,49 @@ class: text-center
 # Now: The interesting stuff.
 
 ---
+
+# TLDR; Ye goode olde software design principles!
+
+<div class="grid grid-cols-2 gap-x-10 gap-y-2 mt-6 text-sm">
+<div>
+
+**DRY** — a duplicated pattern used to be copy-paste fatigue; now it multiplies at the rate the agent can generate.
+
+**Impossible states unrepresentable** — the compiler rejects what code review might miss. Encode invariants once.
+
+**The right abstraction** — a wrong one spreads like a virus through a codebase in minutes! 
+
+**Developer experience** — the agent IS the developer, and lets respect them!
+
+**Least surprise** — the agent infers behaviour from names and conventions. Consistency is important.
+
+**Locality of behaviour** — agents read in windows; code that changes together should live together.
+
+**Parse, don't validate** — push invariants into the type at the boundary, not deep inside the function.
+
+</div>
+<div>
+
+**YAGNI** — agents over-engineer by default; the constraint pulls them back to the actual requirement.
+
+**Single source of truth** — duplication causes split-brain. No two definitions of "user".
+
+**Encapsulation** — smaller public surface area means fewer ways for the agent to misunderstand it.
+
+**Separation of concerns** — smaller congnitive overhead and less spaghetti 
+
+**Tests as executable specifications** — agents can read and run them. Specs as executables means less disconnect between documentation and code.
+
+**Total functions** — partial cases bleeds into call graph, and usually means the design is not tight enough.
+
+</div>
+</div>
+
+---
 layout: section
 number: "03"
 title: Encode Architecture in Types
-subtitle: Effect systems as structural guardrails
+subtitle: Effect systems can keep agents on track (aka "enforce architecture")
 ---
 
 ---
@@ -352,22 +339,28 @@ subtitle: Effect systems as structural guardrails
 # Effects don't lie
 
 ```haskell
-processOrder
-  :: (PaymentGateway :> es, EmailNotification :> es, OrderRepo :> es)
-  => Order -> Eff es Result
+processOrder :: (PaymentGateway :> es, EmailNotification :> es, OrderRepo :> es) => Order -> Eff es Result
 ```
 
-The type is a complete description of what this function does. Agents can't sneak a database write into a function that wasn't supposed to touch the database — the compiler rejects it.
+The type is a complete description of what this function does. Nobody can't sneak a database write into a function that wasn't supposed to touch the database — the compiler rejects it.
 
 <Principle class="mt-6">
 Types are a compression format for architectural intent. You write the architecture once; every agent is constrained by it forever.
 </Principle>
 
+The beauty comes when you abstract the specifics out:
+
+```haskell
+For every domain object X:
+processX :: (XGateway :> es, EmailNotification :> es, XRepo :> es) => X -> Eff es XResult
+ --   ^^ hand wavey
+```
+
 ---
 layout: section
 number: "04"
 title: Build the Hard Abstractions
-subtitle: Keep the agentic surface small and clean
+subtitle: Which would previously require rockstar programmers
 ---
 
 ---
@@ -380,15 +373,22 @@ object InvoiceAggregate : Aggregate<
     InvoiceEvent.ForCreate, InvoiceEvent.ForMutate,
     InvoiceEvent, Invoice, InvoiceDeps> {
 
+    // Write side - Command -> Event
     override fun processCreate(cmd: InvoiceCommand.Create, deps: InvoiceDeps): InvoiceEvent.ForCreate = ...
     override fun processMutate(cmd: InvoiceCommand.Mutate, entity: Versioned<Invoice>, deps: InvoiceDeps): InvoiceEvent.ForMutate = ...
+    
+    // Read side - Event -> State Update
     override fun evolveCreate(event: InvoiceEvent.ForCreate): Versioned<Invoice> = ...
     override fun evolveMutate(entity: Versioned<Invoice>, event: InvoiceEvent.ForMutate): Versioned<Invoice>? = ...
 }
 ```
 
 <Principle class="mt-3">
-Agents design the framework. Agents and humans alike use it.
+So dense. 7 type parameters. Creation vs Mutation. Command vs Event. Dependencies specified. Mutation of existing entity must be versioned.
+</Principle>
+
+<Principle class="mt-3">
+4 pure functions describe a full CQRS write & read abstraction for a single domain object.
 </Principle>
 
 ---
@@ -412,7 +412,8 @@ Agents design the framework. Agents and humans alike use it.
 - Version conflict → send conflict reply to caller
 - <span style="color:#22c55e">Both checks pass → run aggregate domain logic *</span>
 - Write resulting event to the events topic
-- <span style="color:#22c55e">Update the state store *</span>
+- <span style="color:#22c55e">Calculate update to state store *</span>
+- Update the state store
 - Send success reply to caller
 - Periodically retry deferred queue as new events arrive
 
@@ -424,16 +425,16 @@ Agents design the framework. Agents and humans alike use it.
 
 ---
 
-# Everyone is now an architect & process engineer
+# Everyone is an architect & process engineer
 
-The tools and languages we used to love are less important than we think. What matters now is how we show up as the manager of a highly talented development team.
+The tools and languages we used to love are less important than we think - because we don't really need to use them as much as we did before.
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 <Principle title="Engineering process">
 Source control, pipelines, review, and release — applied to everything we produce, not just code.
 </Principle>
 <Principle title="Domain knowledge">
-Understanding the problem deeply enough to know when the output is right, and when it isn't.
+Understanding the problem deeply enough to know when the output is right, and when it isn't, and then being able to design constraints.
 </Principle>
 <Principle title="Accountability">
 Owning the decisions, the architecture, and the consequences — regardless of who wrote the code.
