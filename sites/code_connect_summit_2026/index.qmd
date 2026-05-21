@@ -175,6 +175,48 @@ title: "Code Connect Summit 2026"
       </div>
     </div>
 
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
+        <div class="ccs-speaker-name">Marcus</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Marcus</div>
+          <div class="ccs-speaker-bio-text">Marcus is part of the Intelligent Data team where he serves as a Data Engineer and is also known as the youngest employee at Synthesis. With a growing passion for machine learning and streaming systems, he spends most of his time exploring the full data lifecycle and figuring out how to make distributed systems behave. Outside of work, you'll usually find him playing video games and chess indoors, or football outdoors whenever the weather cooperates.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Jarryd.png" alt="Jarryd"></div>
+        <div class="ccs-speaker-name">Jarryd</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Jarryd.png" alt="Jarryd"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Jarryd</div>
+          <div class="ccs-speaker-bio-text">Jarryd is a Software Engineer with over 9 years of experience designing and building software solutions. Passionate about modern software engineering, AI-driven innovation, and solving complex technical challenges that create real business impact. He enjoys sharing knowledge, mentoring developers, and contributing to conversations that help teams and communities grow through technology.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Tjaard.png" alt="Tjaard"></div>
+        <div class="ccs-speaker-name">Tjaard</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Tjaard.png" alt="Tjaard"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Tjaard</div>
+          <div class="ccs-speaker-bio-text">Tjaard is a technology executive at Synthesis Software Technologies, where he leads a team of technology experts delivering high-impact software. Based in Johannesburg, South Africa, he is passionate about building high-performing teams, visible value, and scalable, beautiful tech. He is deeply focused on continuous learning and creativity. He's a husband and father of two boys, and enjoys making work fun.</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -223,10 +265,10 @@ function expandSpeaker(card) {
         <td><span class="ccs-talk-title">Functional Programming == Object Oriented Programming</span></td>
         <td>Vincent</td>
       </tr>
-      <tr class="ccs-row-tba">
+      <tr>
         <td class="ccs-time">10:20–10:50</td>
-        <td>To Be Announced</td>
-        <td>TBA</td>
+        <td><span class="ccs-talk-title">LLM in Document Understanding</span></td>
+        <td>Marcus &amp; Jarryd</td>
       </tr>
       <tr class="ccs-row-break">
         <td class="ccs-time">10:50–11:10</td>
@@ -251,10 +293,10 @@ function expandSpeaker(card) {
         <td><span class="ccs-talk-title">Algorave 101 — Making Music by Editing Code Live</span></td>
         <td>Enoch</td>
       </tr>
-      <tr class="ccs-row-tba">
+      <tr>
         <td class="ccs-time">13:50–14:20</td>
-        <td>To Be Announced</td>
-        <td>TBA</td>
+        <td><span class="ccs-talk-title">Building a Roblox Game with My Son — What Broke, What Scaled, What Didn't</span></td>
+        <td>Tjaard</td>
       </tr>
       <tr>
         <td class="ccs-time">14:20–14:50</td>
