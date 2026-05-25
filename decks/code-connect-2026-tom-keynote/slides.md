@@ -1,6 +1,6 @@
 ---
 theme: default
-title: "(Notes on)<br>Working with Agents"
+title: "Field notes from<br>working with agents"
 info: |
   Code Connect Summit 2026 — Tom Wells
 class: text-center
@@ -159,7 +159,7 @@ subtitle: Source control & DevOps isn't just for code
 
 ---
 
-# Documents are software
+# Documents are pipelines
 
 <BeforeAfter>
 <template #before>
@@ -190,7 +190,7 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 
 ---
 
-# Business analysis is software
+# Business analysis is pipeline
 
 <BeforeAfter>
 <template #before>
@@ -218,7 +218,7 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 
 ---
 
-# Operations is software
+# Operations is pipeline
 
 <div class="grid grid-cols-2 gap-12 mt-4">
 <div>
@@ -252,9 +252,53 @@ If your day job produces or updates documents, presentations and reports resulti
 
 ---
 
+# Even my fishtank is a pipeline
+
+<div class="grid grid-cols-2 gap-12 mt-4">
+<div>
+
+**`~/dev/fishtank` — a git repo for a planted shrimp tank:**
+- `memory/` — current state (hardware, livestock, parameters)
+- `journal/YYYY-Www/` — append-only event log with photos
+- `AGENTS.md` — tone, defaults, what to read before answering (the skill basically)
+- Git commits = the audit trail of every decision
+
+</div>
+<div>
+
+**User interface is claude code:**
+- *"shrimp babies hatched today"* → journal entry + `livestock.md` updated
+- *"TDS reading 180"* → row appended to `parameters.md`
+- *"Filter arrived"* → `pending.md` ticked + install plan started
+- *"When is my next water change?"* → contextual answer based on whats happening (e.g. baby shrimps)
+
+</div>
+</div>
+
+<Principle class="mt-4">
+    Anything you track or do repeatedly is a pipeline!
+</Principle>
+
+---
+layout: center
+class: text-center
+---
+
+# But how?
+
+<div class="mt-6 text-6xl text-accent font-medium">
+Claude Code + Git + Skills
+</div>
+
+<div class="mt-6 text-sm text-muted italic">
+(and yes you need to learn these)
+</div>
+
+---
+
 # Skills are the unit of work
 
-Committing a human process to an agentic one needs an encoding — somewhere the steps, tools, and acceptable outputs are written down so the agent can run it. Everyone should be capable of building one. *A modern day spreadsheet formula!*
+A human readable encoding of a process. Everyone should be capable of building one. *A modern day spreadsheet formula!*
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 <div>
@@ -277,10 +321,6 @@ Committing a human process to an agentic one needs an encoding — somewhere the
 </div>
 </div>
 
-<Principle class="mt-6">
-The skill is the encoding. Once it exists, the process becomes portable and extendable. Not possible for previously human only processes!
-</Principle>
-
 ---
 layout: center
 class: text-center
@@ -295,34 +335,32 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-10 gap-y-2 mt-6 text-sm">
 <div>
 
-**DRY** — a duplicated pattern used to be copy-paste fatigue; now it multiplies at the rate the agent can generate.
+**DRY** — duplication is agent spaghetti
 
-**Impossible states unrepresentable** — the compiler rejects what code review might miss. Encode invariants once.
+**Impossible states unrepresentable** — effort in defining your domain can save you orders of magnitude of boilerplate later
 
-**The right abstraction** — a wrong one spreads like a virus through a codebase in minutes! 
+**The right abstraction** — bad ones are infectuous and spread in minutes
 
-**Developer experience** — the agent IS the developer, and lets respect them!
+**Developer experience** — the machinery to create great DX is cheap!
 
-**Least surprise** — the agent infers behaviour from names and conventions. Consistency is important.
+**Least surprise** — the agent infers behaviour from names and conventions. Consistency!
 
-**Locality of behaviour** — agents read in windows; code that changes together should live together.
+**Locality of behaviour** — agents read in windows; co-location of functionality is good
 
-**Parse, don't validate** — push invariants into the type at the boundary, not deep inside the function.
+**Parse, don't validate** — push invariants into the type at the boundary, not deep inside the function
 
 </div>
 <div>
 
-**YAGNI** — agents over-engineer by default; the constraint pulls them back to the actual requirement.
+**YAGNI** — don't over-engineer. Refactoring is cheap.
 
-**Single source of truth** — duplication causes split-brain. No two definitions of "user".
-
-**Encapsulation** — smaller public surface area means fewer ways for the agent to misunderstand it.
+**Encapsulation** — smaller public surface area means fewer misunderstandings
 
 **Separation of concerns** — smaller congnitive overhead and less spaghetti 
 
-**Tests as executable specifications** — agents can read and run them. Specs as executables means less disconnect between documentation and code.
+**Tests as executable specifications** — specs as executables means less disconnect between documentation and code
 
-**Total functions** — partial cases bleeds into call graph, and usually means the design is not tight enough.
+**Total functions** — partial cases bleeds into call graph, and usually means the design is not tight enough
 
 </div>
 </div>
