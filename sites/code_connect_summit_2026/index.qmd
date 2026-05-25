@@ -217,6 +217,34 @@ title: "Code Connect Summit 2026"
       </div>
     </div>
 
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - MikeG.png" alt="Mike"></div>
+        <div class="ccs-speaker-name">Mike</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - MikeG.png" alt="Mike"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Mike</div>
+          <div class="ccs-speaker-bio-text">Mike Grant is a technologist, consultant, and chaos manager who turns complex systems into less terrifying ones. With decades in software engineering, architecture, and AI, he helps organizations modernize platforms, untangle legacy decisions, and make impossible projects merely difficult. Equal parts strategist, engineer, and professional overthinker, Mike translates buzzwords into working solutions while surviving meetings that should have been emails. He specializes in high-stakes delivery, unclear roadmaps, production surprises, and the people-and-process problems behind them. Armed with whiteboards, acronyms, and caffeine, Mike believes every system can improve and every meeting can be shorter.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
+      <div class="ccs-speaker-front">
+        <div class="ccs-speaker-avatar"><img src="images/Speaker - Marais.png" alt="Marais"></div>
+        <div class="ccs-speaker-name">Marais</div>
+      </div>
+      <div class="ccs-speaker-detail">
+        <div class="ccs-speaker-photo"><img src="images/Speaker - Marais.png" alt="Marais"></div>
+        <div>
+          <div class="ccs-speaker-bio-name">Marais</div>
+          <div class="ccs-speaker-bio-text">Marais helps turn ideas into real products that make a difference. He believes that great software is built with care — one thoughtful design decision at a time — and that delighting users is the best form of innovation. He believes in craftsmanship, clarity, and creating experiences that delight the people who use them. After hours, you will find him cooking, watching sport, or listening to choir music.</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -274,10 +302,12 @@ function expandSpeaker(card) {
         <td class="ccs-time">10:50–11:10</td>
         <td colspan="2"><span aria-hidden="true">☕</span> Break</td>
       </tr>
-      <tr class="ccs-row-tba">
+      <tr class="ccs-row-special">
         <td class="ccs-time">11:10–11:55</td>
-        <td>To Be Announced</td>
-        <td>TBA</td>
+        <td colspan="2">
+          <span class="ccs-talk-title">Panel: The Future of Software Engineering in the Age of AI</span>
+          <span class="ccs-talk-sub">Facilitated by Kieron &amp; Archie &nbsp;·&nbsp; Panelists: Tom, Tjaard, Marais, Mike</span>
+        </td>
       </tr>
       <tr>
         <td class="ccs-time">12:00–12:30</td>
