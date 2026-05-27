@@ -4,6 +4,7 @@
     <div class="section-rule" />
     <h1 class="section-title">{{ $frontmatter.title }}</h1>
     <div v-if="$frontmatter.subtitle" class="section-subtitle">{{ $frontmatter.subtitle }}</div>
+    <slot />
   </div>
 </template>
 
@@ -16,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  position: relative;
 }
 .section-number {
   font-size: 6rem;

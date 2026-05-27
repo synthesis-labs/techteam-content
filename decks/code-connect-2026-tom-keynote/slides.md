@@ -98,14 +98,21 @@ layout: center
 class: text-center
 ---
 
-# First: The boring stuff.
+# 4 big ideas
 
 ---
 layout: section
 number: "01"
 title: Rethink the OS
-subtitle: The desktop environment wasn't built for this
+subtitle: Our desktops should support concurrency!
 ---
+
+<img src="/distracted-boyfriend-os.jpg" class="absolute right-16 top-1/2 -translate-y-1/2 w-90 rounded-lg shadow-2xl" alt="Distracted boyfriend: eyeing Omarchy + Hyprland over Mac" />
+
+<style>
+.section-title,
+.section-subtitle { max-width: 26rem; }
+</style>
 
 ---
 
@@ -151,10 +158,12 @@ subtitle: The desktop environment wasn't built for this
 <img src="/omarchy_agents_2.png" class="absolute inset-0 w-full h-full object-contain" />
 
 ---
-layout: section
+layout: section-image
 number: "02"
-title: Everything is now a Pipeline
-subtitle: Source control & DevOps isn't just for code
+title: Everything is a Pipeline
+subtitle: Not just for code
+image: /everything-pipelines-meme.jpg
+imageAlt: "Always has been: wait, it's all DevOps?"
 ---
 
 ---
@@ -254,14 +263,40 @@ If your day job produces or updates documents, presentations and reports resulti
 
 # Even my fishtank is a pipeline
 
-<div class="grid grid-cols-2 gap-12 mt-4">
+<div class="grid grid-cols-[auto_1fr] gap-10 mt-2 items-start">
+<div class="flex justify-center">
+<img src="/fishtank-tank-overview.jpg" class="rounded-lg shadow-lg max-h-95" alt="Planted shrimp tank" />
+</div>
 <div>
 
-**`~/dev/fishtank` — a git repo for a planted shrimp tank:**
-- `memory/` — current state (hardware, livestock, parameters)
-- `journal/YYYY-Www/` — append-only event log with photos
-- `AGENTS.md` — tone, defaults, what to read before answering (the skill basically)
-- Git commits = the audit trail of every decision
+<div class="text-base leading-tight space-y-2">
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 16</span><span>Brood 1 born — ~20 shrimplets; mum re-berried</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 17</span><span>Tank baselined — Nano Cube, Amazonia, CO₂</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 19</span><span>Filter clogs → canister upgrade decided</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 21</span><span>Haze ruled benign; gentle water change</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 22</span><span>O₂ near-miss; first baby spotted; air pump</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 23</span><span>Airstone too coarse → add flow valve</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 24</span><span>Dead corner fixed; dual-airstone; 3 babies</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 25</span><span>Critters = harmless ostracods; trip planned</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 26</span><span>Canister live; heatwave → fan, 23°C</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-16 flex-shrink-0">May 27</span><span>"Clog" was under-squeezing, not bioload</span></div>
+</div>
+
+<div class="mt-5 text-sm">
+<a href="https://github.com/drshade/fishtank" class="text-accent font-mono">github.com/drshade/fishtank</a>
+</div>
+
+</div>
+</div>
+
+---
+
+# Even my fishtank is a pipeline
+
+<div class="grid grid-cols-2 gap-12 mt-4">
+<div class="flex items-center justify-center">
+
+<img src="/fishtank-repo-tree.png" class="rounded shadow-md max-h-90" alt="~/dev/fishtank git repo directory tree" />
 
 </div>
 <div>
@@ -280,6 +315,19 @@ If your day job produces or updates documents, presentations and reports resulti
 </Principle>
 
 ---
+
+<div class="grid grid-cols-2 gap-12 items-center mt-4">
+<div>
+
+<div class="text-3xl font-medium text-navy">Claude briefed my wife before my trip</div>
+
+</div>
+<div class="flex justify-center">
+<img src="/whatsapp-fishtank.png" class="max-h-[460px] rounded-xl shadow-lg" alt="WhatsApp handover note Claude wrote for the shrimp tank, signed 'love from Claude'" />
+</div>
+</div>
+
+---
 layout: center
 class: text-center
 ---
@@ -291,7 +339,7 @@ Claude Code + Git + Skills
 </div>
 
 <div class="mt-6 text-sm text-muted italic">
-(and yes you need to learn these)
+(and yes you can learn these)
 </div>
 
 ---
@@ -326,7 +374,7 @@ layout: center
 class: text-center
 ---
 
-# Now: The interesting stuff.
+# Now, let's talk code
 
 ---
 
@@ -366,11 +414,29 @@ class: text-center
 </div>
 
 ---
-layout: section
+layout: section-image
 number: "03"
 title: Encode Architecture in Types
 subtitle: Effect systems can keep agents on track (aka "enforce architecture")
+image: /gandalf-types-meme.jpg
+imageAlt: "The type system as Gandalf blocking db.write() — thou shall not compile!"
 ---
+
+---
+layout: center
+---
+
+<div class="flex flex-col items-center text-center">
+
+<div class="text-lg text-muted italic mb-5">muuuuch more detail here:</div>
+
+<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank">
+<img src="/youtube-architecture-thumb.png" class="max-h-[400px] rounded-lg shadow-xl" alt="YouTube — Agents Are Architecturally Blind" />
+</a>
+
+<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank" class="mt-5 text-accent font-mono text-lg">▶ youtu.be/JaLAvoyjwoQ</a>
+
+</div>
 
 ---
 
@@ -395,10 +461,12 @@ processX :: (XGateway :> es, EmailNotification :> es, XRepo :> es) => X -> Eff e
 ```
 
 ---
-layout: section
+layout: section-image
 number: "04"
 title: Build the Hard Abstractions
-subtitle: Which would previously require rockstar programmers
+subtitle: No rockstar required
+image: /iceberg-abstractions-meme.jpg
+imageAlt: "Iceberg: 7 lines of code on top, a mountain of event-sourcing/CQRS infrastructure underneath"
 ---
 
 ---
@@ -468,13 +536,13 @@ So dense. 7 type parameters. Creation vs Mutation. Command vs Event. Dependencie
 The tools and languages we used to love are less important than we think - because we don't really need to use them as much as we did before.
 
 <div class="grid grid-cols-3 gap-6 mt-8">
-<Principle title="Engineering process">
+<Principle title="Engineer the process">
 Source control, pipelines, review, and release — applied to everything we produce, not just code.
 </Principle>
-<Principle title="Domain knowledge">
-Understanding the problem deeply enough to know when the output is right, and when it isn't, and then being able to design constraints.
+<Principle title="Design for constraints">
+Understanding the problem deeply enough to know the constraints are as tight as possible — so the agent can only produce the right output.
 </Principle>
-<Principle title="Accountability">
+<Principle title="Take accountability">
 Owning the decisions, the architecture, and the consequences — regardless of who wrote the code.
 </Principle>
 </div>
