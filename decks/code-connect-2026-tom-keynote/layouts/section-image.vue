@@ -7,11 +7,21 @@
       <div v-if="$frontmatter.subtitle" class="si-subtitle">{{ $frontmatter.subtitle }}</div>
     </div>
     <div class="si-media">
-      <img v-if="$frontmatter.image" :src="$frontmatter.image" :alt="$frontmatter.imageAlt || ''" class="si-img" />
+      <img v-if="$frontmatter.image" :src="imageSrc" :alt="$frontmatter.imageAlt || ''" class="si-img" />
       <slot v-else />
     </div>
   </div>
 </template>
+
+<script setup>
+import { computed } from 'vue'
+const props = defineProps({ frontmatter: Object })
+const imageSrc = computed(() => {
+  const image = props.frontmatter?.image
+  if (!image) return ''
+  return import.meta.env.BASE_URL + image.replace(/^\//, '')
+})
+</script>
 
 <style scoped>
 .section-image {
