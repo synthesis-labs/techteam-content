@@ -324,17 +324,17 @@ function expandSpeaker(card) {
         <td>Enoch</td>
       </tr>
       <tr>
-        <td class="ccs-time">13:50–14:20</td>
+        <td class="ccs-time">13:55–14:25</td>
         <td><span class="ccs-talk-title">Building a Roblox Game with My Son — What Broke, What Scaled, What Didn't</span></td>
         <td>Tjaard</td>
       </tr>
       <tr>
-        <td class="ccs-time">14:20–14:50</td>
+        <td class="ccs-time">14:30–15:00</td>
         <td><span class="ccs-talk-title">Self-Healing Codebases</span></td>
         <td>Nicholas</td>
       </tr>
       <tr class="ccs-row-special">
-        <td class="ccs-time">14:50–15:50</td>
+        <td class="ccs-time">15:05–15:50</td>
         <td><span class="ccs-talk-title">Workshop: Smart Trainer — Realtime AI Fitness Trainer</span></td>
         <td>Jason</td>
       </tr>
