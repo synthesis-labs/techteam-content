@@ -94,27 +94,6 @@ logo: /synthesis-logo.png
 </style>
 
 ---
-layout: center
-class: text-center
----
-
-# 4 big ideas
-
----
-layout: section
-number: "01"
-title: Rethink the OS
-subtitle: Our desktops should support concurrency!
----
-
-<img src="/distracted-boyfriend-os.jpg" class="absolute right-16 top-1/2 -translate-y-1/2 w-90 rounded-lg shadow-2xl" alt="Distracted boyfriend: eyeing Omarchy + Hyprland over Mac" />
-
-<style>
-.section-title,
-.section-subtitle { max-width: 26rem; }
-</style>
-
----
 
 # Tuesday's workload
 
@@ -135,31 +114,24 @@ subtitle: Our desktops should support concurrency!
 
 **What we actually need:**
 - Higher information density — see more at once
-- Fast, low-friction context switching
-- Isolated workspaces per project or task
-- No hunting for windows, files, or applications
-- No cognitive overhead between switches
-
-<div class="mt-4 text-muted text-sm">(Omarchy + Hyprland — seems like a great option!)</div>
+- Fast, low-friction switching across isolated workspaces
+- Fast restoration of agentic state — no long-running chat windows
+- Trust that agents build within constraints
+- Using agents as human memory swapfiles (spill to disk)
 
 </div>
 </div>
 
 ---
-
-<img src="/mac_agents_1.png" class="absolute inset-0 w-full h-full object-contain" />
-
+layout: center
+class: text-center
 ---
 
-<img src="/omarchy_agents_1.png" class="absolute inset-0 w-full h-full object-contain" />
-
----
-
-<img src="/omarchy_agents_2.png" class="absolute inset-0 w-full h-full object-contain" />
+# 3 big ideas
 
 ---
 layout: section-image
-number: "02"
+number: "01"
 title: Everything is a Pipeline
 subtitle: Not just for code
 image: /everything-pipelines-meme.jpg
@@ -343,126 +315,52 @@ Claude Code + Git + Skills
 </div>
 
 ---
-
-# Skills are the unit of work
-
-A human readable encoding of a process. Everyone should be capable of building one. *A modern day spreadsheet formula!*
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-<div>
-
-**What a skill captures:**
-- The steps of a process
-- The tools and conventions to use
-- The shape of acceptable outputs
-- Where to find context
-- How to resolve conflicts in process
-
-</div>
-<div>
-
-**Benefits:**
-- The single, runnable unit of work
-- Shareable and distributable across teams
-- Versioned, reviewable, improvable
-
-</div>
-</div>
-
----
 layout: center
-class: text-center
 ---
 
-# Now, let's talk code
+<div class="grid grid-cols-3 gap-6 stack-cards">
+<Principle title="Claude Code">
+Computation Layer — runtime, compute, intelligence.
+</Principle>
+<Principle title="Git">
+Storage Layer — memory, audit trail, searchable, indexable.
+</Principle>
+<Principle title="Skills">
+Programmable Layer — repeatable workflows, patterns and processes.
+</Principle>
+</div>
+
+<style>
+.stack-cards :deep(.principle-title) {
+  font-size: 2.0rem;
+}
+</style>
+
+---
+layout: section
+number: "02"
+title: Rethink the OS
+subtitle: Our desktops should support concurrency!
+---
+
+<img src="/distracted-boyfriend-os.jpg" class="absolute right-16 top-1/2 -translate-y-1/2 w-90 rounded-lg shadow-2xl" alt="Distracted boyfriend: eyeing Omarchy + Hyprland over Mac" />
+
+<style>
+.section-title,
+.section-subtitle { max-width: 26rem; }
+</style>
 
 ---
 
-# TLDR; Ye goode olde software design principles!
+<img src="/mac_agents_1.png" class="absolute inset-0 w-full h-full object-contain" />
 
-<div class="grid grid-cols-2 gap-x-10 gap-y-2 mt-6 text-sm">
-<div>
+---
 
-**DRY** — duplication is agent spaghetti
-
-**Impossible states unrepresentable** — effort in defining your domain can save you orders of magnitude of boilerplate later
-
-**The right abstraction** — bad ones are infectuous and spread in minutes
-
-**Developer experience** — the machinery to create great DX is cheap!
-
-**Least surprise** — the agent infers behaviour from names and conventions. Consistency!
-
-**Locality of behaviour** — agents read in windows; co-location of functionality is good
-
-**Parse, don't validate** — push invariants into the type at the boundary, not deep inside the function
-
-</div>
-<div>
-
-**YAGNI** — don't over-engineer. Refactoring is cheap.
-
-**Encapsulation** — smaller public surface area means fewer misunderstandings
-
-**Separation of concerns** — smaller congnitive overhead and less spaghetti 
-
-**Tests as executable specifications** — specs as executables means less disconnect between documentation and code
-
-**Total functions** — partial cases bleeds into call graph, and usually means the design is not tight enough
-
-</div>
-</div>
+<img src="/omarchy_agents_1.png" class="absolute inset-0 w-full h-full object-contain" />
 
 ---
 layout: section-image
 number: "03"
-title: Encode Architecture in Types
-subtitle: Effect systems can keep agents on track (aka "enforce architecture")
-image: /gandalf-types-meme.jpg
-imageAlt: "The type system as Gandalf blocking db.write() — thou shall not compile!"
----
-
----
-layout: center
----
-
-<div class="flex flex-col items-center text-center">
-
-<div class="text-lg text-muted italic mb-5">muuuuch more detail here:</div>
-
-<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank">
-<img src="/youtube-architecture-thumb.png" class="max-h-[400px] rounded-lg shadow-xl" alt="YouTube — Agents Are Architecturally Blind" />
-</a>
-
-<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank" class="mt-5 text-accent font-mono text-lg">▶ youtu.be/JaLAvoyjwoQ</a>
-
-</div>
-
----
-
-# Effects don't lie
-
-```haskell
-processOrder :: (PaymentGateway :> es, EmailNotification :> es, OrderRepo :> es) => Order -> Eff es Result
-```
-
-The type is a complete description of what this function does. Nobody can't sneak a database write into a function that wasn't supposed to touch the database — the compiler rejects it.
-
-<Principle class="mt-6">
-Types are a compression format for architectural intent. You write the architecture once; every agent is constrained by it forever.
-</Principle>
-
-The beauty comes when you abstract the specifics out:
-
-```haskell
-For every domain object X:
-processX :: (XGateway :> es, EmailNotification :> es, XRepo :> es) => X -> Eff es XResult
- --   ^^ hand wavey
-```
-
----
-layout: section-image
-number: "04"
 title: Build the Hard Abstractions
 subtitle: No rockstar required
 image: /iceberg-abstractions-meme.jpg
@@ -528,6 +426,31 @@ So dense. 7 type parameters. Creation vs Mutation. Command vs Event. Dependencie
 
 <div class="mt-4 text-muted text-sm">You never touch any of this. The framework owns it.</div>
 <div class="text-sm" style="color:#22c55e">* your code runs here</div>
+
+---
+layout: section-image
+number: "03b"
+title: Encode Architecture in Types
+subtitle: Effect systems can keep agents on track (aka "enforce architecture")
+image: /gandalf-types-meme.jpg
+imageAlt: "The type system as Gandalf blocking db.write() — thou shall not compile!"
+---
+
+---
+layout: center
+---
+
+<div class="flex flex-col items-center text-center">
+
+<div class="text-lg text-muted italic mb-5">muuuuch more detail here:</div>
+
+<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank">
+<img src="/youtube-architecture-thumb.png" class="max-h-[400px] rounded-lg shadow-xl" alt="YouTube — Agents Are Architecturally Blind" />
+</a>
+
+<a href="https://www.youtube.com/watch?v=JaLAvoyjwoQ" target="_blank" class="mt-5 text-accent font-mono text-lg">▶ youtu.be/JaLAvoyjwoQ</a>
+
+</div>
 
 ---
 
