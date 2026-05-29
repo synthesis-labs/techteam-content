@@ -117,7 +117,7 @@ logo: /synthesis-logo.png
 - Fast, low-friction switching across isolated workspaces
 - Fast restoration of agentic state — no long-running chat windows
 - Trust that agents build within constraints
-- Using agents as human memory swapfiles (spill to disk)
+- Using agents as human memory swapfiles (spill your brain to disk)
 
 </div>
 </div>
@@ -127,7 +127,7 @@ layout: center
 class: text-center
 ---
 
-# 3 big ideas
+# 3½ ideas
 
 ---
 layout: section-image
@@ -168,6 +168,14 @@ imageAlt: "Always has been: wait, it's all DevOps?"
 <Principle class="mt-4">
 Recognising that every artifact has a source, a build, and a release. Treat it like software.
 </Principle>
+
+---
+
+# Knowledge work
+
+<div class="flex justify-center mt-2">
+<img src="/document-pipeline.svg" class="w-full max-w-4xl" alt="A document as a pipeline: agents and a human collaborate on a single source in git, then once approved it renders, publishes, and distributes" />
+</div>
 
 ---
 
