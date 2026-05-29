@@ -241,6 +241,24 @@ If your day job produces or updates documents, presentations and reports resulti
 
 ---
 
+# This presentation is a pipeline
+
+<div class="text-base leading-tight space-y-2 mt-4">
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 14</span><span>Scaffolded the deck and committed a first rough draft</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 14</span><span>Added a summary section to close out Part 1</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 18</span><span>Introduced the "Principle" slide — flagged to be refined</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 19</span><span>First pass of manual content tweaks</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 25</span><span>Tightened wording across the deck</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 27</span><span>Many more tweaks; added the memes</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono font-semibold w-20 flex-shrink-0">May 29</span><span>Refactored structure and committed the last bits</span></div>
+</div>
+
+<Principle class="mt-6">
+Every slide you're seeing is source-controlled — this is the actual commit log that produced this talk.
+</Principle>
+
+---
+
 # Even my fishtank is a pipeline
 
 <div class="grid grid-cols-[auto_1fr] gap-10 mt-2 items-start">
