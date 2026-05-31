@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" role="img">
   <title>A document as a pipeline</title>
-  <desc>Two zones joined by an approval gate. Left zone, "Collaborate": one or more Agents and a Human both feed a
-    stack of Source files (in git), with an iterate loop closing the cycle. Right zone, "Release": once approved, the
-    sources flow through Render, then Publish, then Distribute.</desc>
+  <desc>Two zones joined by an approval gate. Left zone, "Codebase": one or more Agents and a Human work on a
+    git-persisted codebase made of three parts — Source files, Long-term memory, and Work in progress. Agents touch
+    all three; the human contributes to Work. An iterate loop closes the cycle. Right zone, "Release": once approved,
+    the sources flow through Render, then Publish, then Distribute.</desc>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6"
@@ -45,40 +46,47 @@
     </style>
   </defs>
 
-  <!-- ═══ ZONE 1: collaborate ═══ -->
+  <!-- ═══ ZONE 1: codebase ═══ -->
   <rect x="20" y="28" width="390" height="344" rx="18" fill="#EEF2FF" stroke="#4D7EF7" stroke-width="0.75" />
-  <text class="tlabel" x="40" y="54" fill="#1D3476">COLLABORATE</text>
+  <text class="tlabel" x="40" y="54" fill="#1D3476">CODEBASE</text>
 
-  <!-- iterate loop: sources back to agents -->
-  <path d="M315 150 C315 60, 230 46, 124 72" fill="none" stroke="#4D7EF7" stroke-width="1.5"
+  <!-- iterate loop: codebase back to agents -->
+  <path d="M305 84 C305 44, 205 38, 128 86" fill="none" stroke="#4D7EF7" stroke-width="1.5"
     marker-end="url(#arrow)" />
-  <text class="ts" x="206" y="48" text-anchor="middle" fill="#4D7EF7">iterate</text>
+  <text class="ts" x="210" y="44" text-anchor="middle" fill="#4D7EF7">iterate</text>
 
-  <!-- agents → sources -->
-  <line x1="198" y1="118" x2="229" y2="190" stroke="#6B7280" stroke-width="1.5" fill="none"
+  <!-- agents → source / memory / work (agents touch everything) -->
+  <line x1="200" y1="116" x2="229" y2="124" stroke="#4D7EF7" stroke-width="1.5" fill="none"
     marker-end="url(#arrow)" />
-  <!-- human → sources -->
-  <line x1="198" y1="312" x2="229" y2="238" stroke="#6B7280" stroke-width="1.5" fill="none"
+  <line x1="200" y1="124" x2="229" y2="212" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <line x1="200" y1="130" x2="229" y2="306" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <!-- human → work only -->
+  <line x1="200" y1="318" x2="229" y2="314" stroke="#6B7280" stroke-width="1.5" fill="none"
     marker-end="url(#arrow)" />
 
   <!-- agents -->
-  <rect x="48" y="72" width="150" height="64" rx="10" fill="#FFFFFF" stroke="#4D7EF7" stroke-width="0.75" />
-  <text class="th" x="123" y="110" text-anchor="middle" fill="#1A1F2E">Agents</text>
+  <rect x="48" y="92" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#4D7EF7" stroke-width="0.75" />
+  <text class="th" x="123" y="128" text-anchor="middle" fill="#1A1F2E">Agents</text>
 
   <!-- human -->
-  <rect x="48" y="292" width="150" height="58" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="0.75" />
-  <text class="th" x="123" y="327" text-anchor="middle" fill="#1A1F2E">Human</text>
+  <rect x="48" y="290" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="0.75" />
+  <text class="th" x="123" y="326" text-anchor="middle" fill="#1A1F2E">Human</text>
 
-  <!-- sources: a stack of source files (focal) -->
-  <rect x="248" y="148" width="150" height="92" rx="14" fill="#1E3155" stroke="#4D7EF7" stroke-width="0.75" />
-  <rect x="240" y="156" width="150" height="92" rx="14" fill="#1A2B49" stroke="#4D7EF7" stroke-width="0.75" />
-  <rect x="232" y="164" width="150" height="92" rx="14" fill="#162440" stroke="#4D7EF7" stroke-width="1" />
-  <text class="th" x="307" y="216" text-anchor="middle" fill="#FFFFFF">Source</text>
+  <!-- source: a stack of source files (focal) -->
+  <rect x="248" y="72" width="146" height="76" rx="14" fill="#1E3155" stroke="#4D7EF7" stroke-width="0.75" />
+  <rect x="240" y="78" width="146" height="76" rx="14" fill="#1A2B49" stroke="#4D7EF7" stroke-width="0.75" />
+  <rect x="232" y="84" width="146" height="76" rx="14" fill="#162440" stroke="#4D7EF7" stroke-width="1" />
+  <text class="th" x="305" y="128" text-anchor="middle" fill="#FFFFFF">Sources</text>
 
-  <!-- long-term memory & decisions: also git-persisted -->
-  <rect x="232" y="268" width="150" height="80" rx="12" fill="#162440" stroke="#4D7EF7" stroke-width="0.75" />
-  <text class="tm" x="307" y="302" text-anchor="middle" fill="#FFFFFF">Long-term memory</text>
-  <text class="ts" x="307" y="324" text-anchor="middle" fill="#A5B4FC">decisions · context</text>
+  <!-- long-term memory: also git-persisted -->
+  <rect x="232" y="182" width="146" height="72" rx="12" fill="#162440" stroke="#4D7EF7" stroke-width="0.75" />
+  <text class="tm" x="305" y="222" text-anchor="middle" fill="#FFFFFF">Long-term memory</text>
+
+  <!-- work in progress: also git-persisted -->
+  <rect x="232" y="278" width="146" height="72" rx="12" fill="#162440" stroke="#4D7EF7" stroke-width="0.75" />
+  <text class="th" x="305" y="318" text-anchor="middle" fill="#FFFFFF">Work</text>
 
   <!-- ═══ ZONE 2: release ═══ -->
   <rect x="440" y="28" width="460" height="344" rx="18" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="0.5" />

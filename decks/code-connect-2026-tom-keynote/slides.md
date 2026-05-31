@@ -133,7 +133,7 @@ class: text-center
 layout: section-image
 number: "01"
 title: Everything is a Pipeline
-subtitle: Not just for code
+subtitle: So treat it like a codebase
 image: /everything-pipelines-meme.jpg
 imageAlt: "Always has been: wait, it's all DevOps?"
 ---
@@ -171,10 +171,10 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 
 ---
 
-# Knowledge work
+# Codebase + Pipeline
 
 <div class="flex justify-center mt-2">
-<img src="/document-pipeline.svg" class="w-full max-w-4xl" alt="A document as a pipeline: agents and a human collaborate on a single source in git, then once approved it renders, publishes, and distributes" />
+<img src="/document-pipeline.svg" class="w-full max-w-4xl" alt="Knowledge work as a codebase: agents work across source, long-term memory and work-in-progress in git while a human contributes to the work, then once approved it renders, publishes, and distributes" />
 </div>
 
 ---
@@ -259,7 +259,7 @@ Every slide you're seeing is source-controlled — this is the actual commit log
 
 ---
 
-# Even my fishtank is a pipeline
+# My fishtank is a codebase
 
 <div class="grid grid-cols-[auto_1fr] gap-10 mt-2 items-start">
 <div class="flex justify-center">
@@ -289,7 +289,7 @@ Every slide you're seeing is source-controlled — this is the actual commit log
 
 ---
 
-# Even my fishtank is a pipeline
+# My fishtank is a codebase
 
 <div class="grid grid-cols-2 gap-12 mt-4">
 <div class="flex items-center justify-center">
@@ -304,6 +304,10 @@ Every slide you're seeing is source-controlled — this is the actual commit log
 - *"TDS reading 180"* → row appended to `parameters.md`
 - *"Filter arrived"* → `pending.md` ticked + install plan started
 - *"When is my next water change?"* → contextual answer based on whats happening (e.g. baby shrimps)
+
+<div class="mt-5 px-3 py-2 rounded" style="background:#EEF2FF;border-left:3px solid #4D7EF7;font-size:0.75rem;color:#0D1120;">
+📱 Works on mobile using Claude too!
+</div>
 
 </div>
 </div>
@@ -322,6 +326,87 @@ Every slide you're seeing is source-controlled — this is the actual commit log
 </div>
 <div class="flex justify-center">
 <img src="/whatsapp-fishtank.png" class="max-h-[460px] rounded-xl shadow-lg" alt="WhatsApp handover note Claude wrote for the shrimp tank, signed 'love from Claude'" />
+</div>
+</div>
+
+---
+
+# My whisky collection is a codebase+pipeline
+
+<div class="text-base text-muted mt-1">Same idea as fishtank — but more structured and type safe.</div>
+
+<div class="grid grid-cols-[1fr_auto_1fr_auto_1fr] gap-3 items-stretch mt-6 text-center">
+<div class="rounded-lg px-3 py-3 text-left" style="background:#EEF2FF;border:1px solid #4D7EF7;">
+<div class="rounded px-3 py-2 mb-2" style="background:#FFFFFF;border:1px solid #C7D2FE;">
+<div class="font-mono font-semibold text-xs" style="color:#0D1120;">structured · whiskies/*.dhall</div>
+<div class="text-xs mt-1" style="color:#374151;">58 typed records — one per bottle</div>
+</div>
+<div class="rounded px-3 py-2" style="background:#FFFFFF;border:1px solid #C7D2FE;">
+<div class="font-mono font-semibold text-xs" style="color:#0D1120;">unstructured · journal/ + notes/</div>
+<div class="text-xs mt-1" style="color:#374151;">tasting entries · taste preferences</div>
+</div>
+</div>
+<div class="flex items-center text-2xl text-accent font-mono">→</div>
+<div class="rounded-lg px-4 py-4" style="background:#EEF2FF;border:1px solid #4D7EF7;">
+<div class="font-mono font-semibold text-sm" style="color:#0D1120;">whisky-catalogue</div>
+<div class="text-xs mt-2" style="color:#374151;">Haskell generator — decodes, validates, renders</div>
+</div>
+<div class="flex items-center text-2xl text-accent font-mono">→</div>
+<div class="rounded-lg px-4 py-4" style="background:#EEF2FF;border:1px solid #4D7EF7;">
+<div class="font-mono font-semibold text-sm" style="color:#0D1120;">README + docs/</div>
+<div class="text-xs mt-2" style="color:#374151;">Generated dashboards — ranking, collection, wishlist</div>
+</div>
+</div>
+
+<div class="grid grid-cols-2 gap-x-10 gap-y-1 mt-6 text-sm">
+<div class="flex gap-3"><span class="text-accent font-mono flex-shrink-0 w-14">data</span><span>I only ever edit the typed Dhall — the markdown is generated, never hand-written</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono flex-shrink-0 w-14">check</span><span>Build-time validation flags nonsense (a blender "bottling" a single malt)</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono flex-shrink-0 w-14">CI</span><span><code>git push</code> → a GitHub Action rebuilds the docs and commits them back</span></div>
+<div class="flex gap-3"><span class="text-accent font-mono flex-shrink-0 w-14">query</span><span>"My favourite Speyside?" = a type-safe list comprehension, not hand-reading files</span></div>
+</div>
+
+<div class="mt-5 text-sm text-center">
+<a href="https://github.com/drshade/whisky" class="text-accent font-mono">github.com/drshade/whisky</a>
+</div>
+
+---
+
+# My whisky collection is a codebase+pipeline
+
+<div class="grid grid-cols-2 gap-10 mt-3 items-start">
+<div>
+
+```haskell
+W.Whisky::{
+  id = "aberlour-abunadh",
+  name = "Aberlour A'bunadh",
+  producer = P.aberlour,   -- defined once, referenced
+  style = W.Style.SingleMalt,
+  abv = 60.0,
+  casks = [ "oloroso sherry" ],
+  wishlist = Some W.Wishlist::{
+    priority = W.Priority.High,
+    price = { amount = 60,
+              currency = W.Currency.Eur },
+    tryFirst = False,
+    why = "cask-strength sherry bomb"
+  }
+}
+```
+
+</div>
+<div>
+
+<div class="text-sm text-muted mb-2">…regenerated into a ranked dashboard:</div>
+
+| # | Bottle | Region | Rating |
+|---|---|---|---|
+| 1 | Hedonism | Scotland (blend) | **91** |
+| 2 | Kilchoman Sanaig | Islay | **90** |
+| 3 | Blanton's Original | Kentucky | **89** |
+
+<div class="text-xs text-muted mt-2 italic">Generated from <code>whiskies/*.dhall</code> — never hand-edited.</div>
+
 </div>
 </div>
 
