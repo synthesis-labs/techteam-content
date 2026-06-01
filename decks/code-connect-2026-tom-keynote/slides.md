@@ -129,6 +129,8 @@ class: text-center
 
 # 3½ ideas
 
+<div class="mt-4 text-2xl text-muted italic">(in 30 minutes — strap in)</div>
+
 ---
 layout: section-image
 number: "01"
@@ -349,7 +351,7 @@ Every slide you're seeing is source-controlled — this is the actual commit log
 <div class="flex items-center text-2xl text-accent font-mono">→</div>
 <div class="rounded-lg px-4 py-4" style="background:#EEF2FF;border:1px solid #4D7EF7;">
 <div class="font-mono font-semibold text-sm" style="color:#0D1120;">whisky-catalogue</div>
-<div class="text-xs mt-2" style="color:#374151;">Haskell generator — decodes, validates, renders</div>
+<div class="text-xs mt-2" style="color:#374151;">Generator tool — decodes, validates, renders</div>
 </div>
 <div class="flex items-center text-2xl text-accent font-mono">→</div>
 <div class="rounded-lg px-4 py-4" style="background:#EEF2FF;border:1px solid #4D7EF7;">

@@ -50,22 +50,6 @@
   <rect x="20" y="28" width="390" height="344" rx="18" fill="#EEF2FF" stroke="#4D7EF7" stroke-width="0.75" />
   <text class="tlabel" x="40" y="54" fill="#1D3476">CODEBASE</text>
 
-  <!-- iterate loop: codebase back to agents -->
-  <path d="M305 84 C305 44, 205 38, 128 86" fill="none" stroke="#4D7EF7" stroke-width="1.5"
-    marker-end="url(#arrow)" />
-  <text class="ts" x="210" y="44" text-anchor="middle" fill="#4D7EF7">iterate</text>
-
-  <!-- agents → source / memory / work (agents touch everything) -->
-  <line x1="200" y1="116" x2="229" y2="124" stroke="#4D7EF7" stroke-width="1.5" fill="none"
-    marker-end="url(#arrow)" />
-  <line x1="200" y1="124" x2="229" y2="212" stroke="#4D7EF7" stroke-width="1.5" fill="none"
-    marker-end="url(#arrow)" />
-  <line x1="200" y1="130" x2="229" y2="306" stroke="#4D7EF7" stroke-width="1.5" fill="none"
-    marker-end="url(#arrow)" />
-  <!-- human → work only -->
-  <line x1="200" y1="318" x2="229" y2="314" stroke="#6B7280" stroke-width="1.5" fill="none"
-    marker-end="url(#arrow)" />
-
   <!-- agents -->
   <rect x="48" y="92" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#4D7EF7" stroke-width="0.75" />
   <text class="th" x="123" y="128" text-anchor="middle" fill="#1A1F2E">Agents</text>
@@ -87,6 +71,24 @@
   <!-- work in progress: also git-persisted -->
   <rect x="232" y="278" width="146" height="72" rx="12" fill="#162440" stroke="#4D7EF7" stroke-width="0.75" />
   <text class="th" x="305" y="318" text-anchor="middle" fill="#FFFFFF">Work</text>
+
+  <!-- connectors drawn AFTER the boxes so arrowheads sit on top -->
+  <!-- iterate loop: codebase back to agents -->
+  <path d="M305 84 C305 44, 205 38, 128 86" fill="none" stroke="#4D7EF7" stroke-width="1.5"
+    marker-end="url(#arrow)" />
+  <text class="ts" x="210" y="44" text-anchor="middle" fill="#4D7EF7">iterate</text>
+
+  <!-- agents → source / memory / work (agents touch everything) -->
+  <line x1="200" y1="116" x2="229" y2="124" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <line x1="200" y1="124" x2="229" y2="212" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <line x1="200" y1="130" x2="229" y2="306" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <!-- human → work only -->
+  <line x1="200" y1="322" x2="229" y2="318" stroke="#6B7280" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <text class="ts" x="214" y="312" text-anchor="middle" fill="#6B7280">review</text>
 
   <!-- ═══ ZONE 2: release ═══ -->
   <rect x="440" y="28" width="460" height="344" rx="18" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="0.5" />
