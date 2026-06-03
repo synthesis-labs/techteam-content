@@ -177,34 +177,6 @@ title: "Code Connect Summit 2026"
 
     <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
       <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
-        <div class="ccs-speaker-name">Marcus</div>
-      </div>
-      <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo"><img src="images/Speaker - Marcus.png" alt="Marcus"></div>
-        <div>
-          <div class="ccs-speaker-bio-name">Marcus</div>
-          <div class="ccs-speaker-bio-text">Marcus is part of the Intelligent Data team where he serves as a Data Engineer and is also known as the youngest employee at Synthesis. With a growing passion for machine learning and streaming systems, he spends most of his time exploring the full data lifecycle and figuring out how to make distributed systems behave. Outside of work, you'll usually find him playing video games and chess indoors, or football outdoors whenever the weather cooperates.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
-      <div class="ccs-speaker-front">
-        <div class="ccs-speaker-avatar"><img src="images/Speaker - Jarryd.png" alt="Jarryd"></div>
-        <div class="ccs-speaker-name">Jarryd</div>
-      </div>
-      <div class="ccs-speaker-detail">
-        <div class="ccs-speaker-photo"><img src="images/Speaker - Jarryd.png" alt="Jarryd"></div>
-        <div>
-          <div class="ccs-speaker-bio-name">Jarryd</div>
-          <div class="ccs-speaker-bio-text">Jarryd is a Software Engineer with over 9 years of experience designing and building software solutions. Passionate about modern software engineering, AI-driven innovation, and solving complex technical challenges that create real business impact. He enjoys sharing knowledge, mentoring developers, and contributing to conversations that help teams and communities grow through technology.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ccs-speaker-card" role="button" tabindex="0" aria-expanded="false" onclick="expandSpeaker(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();expandSpeaker(this)}">
-      <div class="ccs-speaker-front">
         <div class="ccs-speaker-avatar"><img src="images/Speaker - Tjaard.png" alt="Tjaard"></div>
         <div class="ccs-speaker-name">Tjaard</div>
       </div>
@@ -284,66 +256,61 @@ function expandSpeaker(card) {
         <td>Kieron &amp; Archie</td>
       </tr>
       <tr>
-        <td class="ccs-time">09:10–09:40</td>
+        <td class="ccs-time">09:10–09:55</td>
         <td><span class="ccs-talk-title">Keynote</span></td>
         <td>Tom</td>
       </tr>
       <tr>
-        <td class="ccs-time">09:45–10:15</td>
+        <td class="ccs-time">10:00–10:30</td>
         <td><span class="ccs-talk-title">Functional Programming == Object Oriented Programming</span></td>
         <td>Vincent</td>
       </tr>
-      <tr>
-        <td class="ccs-time">10:20–10:50</td>
-        <td><span class="ccs-talk-title">LLM in Document Understanding</span></td>
-        <td>Marcus &amp; Jarryd</td>
-      </tr>
       <tr class="ccs-row-break">
-        <td class="ccs-time">10:50–11:10</td>
+        <td class="ccs-time">10:30–10:50</td>
         <td colspan="2"><span aria-hidden="true">☕</span> Break</td>
       </tr>
       <tr class="ccs-row-special">
-        <td class="ccs-time">11:10–11:55</td>
+        <td class="ccs-time">10:50–11:35</td>
         <td colspan="2">
           <span class="ccs-talk-title">Panel: The Future of Software Engineering in the Age of AI</span>
           <span class="ccs-talk-sub">Facilitated by Kieron &amp; Archie &nbsp;·&nbsp; Panelists: Tom, Tjaard, Marais, Mike</span>
         </td>
       </tr>
       <tr>
-        <td class="ccs-time">12:00–12:30</td>
+        <td class="ccs-time">11:40–12:10</td>
         <td><span class="ccs-talk-title">Running Kubernetes at Home the Easy Way, Because Overcomplicating Things Is a Lifestyle Choice</span></td>
         <td>Rodney</td>
       </tr>
       <tr class="ccs-row-break">
-        <td class="ccs-time">12:30–13:30</td>
+        <td class="ccs-time">12:10–13:10</td>
         <td colspan="2"><span aria-hidden="true">🍽</span> Lunch Break</td>
       </tr>
       <tr>
-        <td class="ccs-time">13:30–13:50</td>
+        <td class="ccs-time">13:10–13:30</td>
         <td><span class="ccs-talk-title">Algorave 101 — Making Music by Editing Code Live</span></td>
         <td>Enoch</td>
       </tr>
       <tr>
-        <td class="ccs-time">13:55–14:25</td>
+        <td class="ccs-time">13:35–14:05</td>
         <td><span class="ccs-talk-title">Building a Roblox Game with My Son — What Broke, What Scaled, What Didn't</span></td>
         <td>Tjaard</td>
       </tr>
       <tr>
-        <td class="ccs-time">14:30–15:00</td>
+        <td class="ccs-time">14:10–14:40</td>
         <td><span class="ccs-talk-title">Self-Healing Codebases</span></td>
         <td>Nicholas</td>
       </tr>
       <tr class="ccs-row-special">
-        <td class="ccs-time">15:05–15:50</td>
+        <td class="ccs-time">14:45–15:45</td>
         <td><span class="ccs-talk-title">Workshop: Smart Trainer — Realtime AI Fitness Trainer</span></td>
         <td>Jason</td>
       </tr>
       <tr class="ccs-row-break">
-        <td class="ccs-time">15:50–16:10</td>
+        <td class="ccs-time">15:45–16:05</td>
         <td colspan="2"><span aria-hidden="true">☕</span> Break</td>
       </tr>
       <tr>
-        <td class="ccs-time">16:10–16:30</td>
+        <td class="ccs-time">16:05–16:25</td>
         <td><span class="ccs-talk-title">Final Thank You &amp; Prizes</span></td>
         <td>Kieron &amp; Archie</td>
       </tr>
@@ -357,7 +324,7 @@ function expandSpeaker(card) {
 <section id="rsvp" class="ccs-section">
   <div class="ccs-section-title">RSVP</div>
   <div class="ccs-rsvp-box">
-    <p>Secure your spot for Code Connect Summit 2026.<br>June 5th · Synthesis Office JHB &amp; CPT · 09:00–16:30</p>
+    <p>Secure your spot for Code Connect Summit 2026.<br>June 5th · Synthesis Office JHB &amp; CPT · 09:00–16:25</p>
     <a class="ccs-rsvp-btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">Register Now →</a>
   </div>
 </section>
