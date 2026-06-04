@@ -83,13 +83,21 @@ title: "Know Before You Go — Code Connect Summit 2026"
     <div class="ccs-kbyg-step">
       <div class="ccs-kbyg-step-num">03</div>
       <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">🐛 Syntax Error Board</div>
+        <p>In the games area you'll find a board covered in stickies. Add yours: <strong>what's the biggest code mistake you've ever made?</strong> Dropped databases, expired certs, lost repos — whatever you're comfortable sharing. We're all human.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">04</div>
+      <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">📍 Finding the Venue</div>
         <p>Follow the <strong>Code Connect Summit tunnel</strong> — it leads straight to the Training Rooms. You will not miss it. The tunnel is an experience in itself. We'll say no more.</p>
       </div>
     </div>
 
     <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">04</div>
+      <div class="ccs-kbyg-step-num">05</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">☕ Food &amp; Drink</div>
         <p>Snacks and coffee are available all day. Lunch is provided. Dietary requirements not on your RSVP? Ping <strong>Archie or Kieron on Teams</strong> now.</p>
@@ -97,7 +105,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
     </div>
 
     <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">05</div>
+      <div class="ccs-kbyg-step-num">06</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">💻 Joining Online</div>
         <p>Hybrid event — <strong>Teams link active from 09:00</strong>. Check your calendar invite. Online attendees can enter all raffle draws too.</p>
@@ -105,7 +113,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
     </div>
 
     <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">06</div>
+      <div class="ccs-kbyg-step-num">07</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">📝 Feedback</div>
         <p>Your opinions shape the next one. <strong>Hit the feedback button on this site</strong> before 16:00 — it takes two minutes and it genuinely matters. <strong>Every submission enters you into a prize draw.</strong></p>
@@ -113,7 +121,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
     </div>
 
     <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">07</div>
+      <div class="ccs-kbyg-step-num">08</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">🎁 The Raffle(s)</div>
         <p><strong>Two draws at 16:00.</strong> Submit your <strong>lanyard + name tag</strong> for draw #1. Submit <strong>feedback forms</strong> for draw #2. Silliest outfit prize also at 16:00. Don't leave early.</p>
@@ -121,7 +129,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
     </div>
 
     <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">08</div>
+      <div class="ccs-kbyg-step-num">09</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">🚀 Have the Best Time</div>
         <p>Talk to people. Geek out. That person you've been on calls with for months but never met in person? Today's the day. Post everything to the <strong>Code Connect Community on Engage</strong> — especially the costumes.</p>
