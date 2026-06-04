@@ -15,7 +15,7 @@ title: "Code Connect Summit 2026"
     <li><a href="dont-get-got.html" class="ccs-nav-special">Don't Get Got</a></li>
     <li><a href="know-before-you-go.html" class="ccs-nav-special">Know Before You Go</a></li>
   </ul>
-  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback</a>
 </nav>
 
 <!-- HERO -->
@@ -34,7 +34,7 @@ title: "Code Connect Summit 2026"
     <span class="ccs-hero-meta-item"><span class="ccs-hero-meta-icon" aria-hidden="true">📍</span> Synthesis Office &nbsp;·&nbsp; JHB &amp; CPT</span>
     <span class="ccs-hero-meta-item"><span class="ccs-hero-meta-icon" aria-hidden="true">🏛</span> JHB: Training Room &nbsp;·&nbsp; CPT: Table Mountain &amp; Newlands Meeting Rooms</span>
   </div>
-  <a class="ccs-hero-cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now →</a>
+  <a class="ccs-hero-cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback →</a>
 </div>
 ```
 
@@ -58,10 +58,10 @@ title: "Code Connect Summit 2026"
       <span class="ccs-about-link-title">Don't Get Got</span>
       <span class="ccs-about-link-sub">The day's social game — read the rules</span>
     </a>
-    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u" class="ccs-about-link-card ccs-about-link-card--cta">
-      <span class="ccs-about-link-icon" aria-hidden="true">✅</span>
-      <span class="ccs-about-link-title">RSVP Now</span>
-      <span class="ccs-about-link-sub">Secure your spot</span>
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u" class="ccs-about-link-card ccs-about-link-card--cta">
+      <span class="ccs-about-link-icon" aria-hidden="true">💬</span>
+      <span class="ccs-about-link-title">Give Feedback</span>
+      <span class="ccs-about-link-sub">Tell us what you thought</span>
     </a>
   </div>
 </section>
@@ -339,12 +339,12 @@ function expandSpeaker(card) {
 ```
 
 ```{=html}
-<!-- RSVP -->
+<!-- FEEDBACK -->
 <section id="rsvp" class="ccs-section">
-  <div class="ccs-section-title">RSVP</div>
+  <div class="ccs-section-title">Feedback</div>
   <div class="ccs-rsvp-box">
-    <p>Secure your spot for Code Connect Summit 2026.<br>June 5th · Synthesis Office JHB &amp; CPT · 09:00–16:25</p>
-    <a class="ccs-rsvp-btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">Register Now →</a>
+    <p>Enjoyed Code Connect Summit 2026? Let us know what you thought.<br>Your feedback helps us make the next one even better.</p>
+    <a class="ccs-rsvp-btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback →</a>
   </div>
 </section>
 

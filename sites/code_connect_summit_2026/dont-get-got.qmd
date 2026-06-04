@@ -15,7 +15,7 @@ title: "Don't Get Got — Code Connect Summit 2026"
     <li><a href="dont-get-got.html" class="ccs-nav-special" aria-current="page">Don't Get Got</a></li>
     <li><a href="know-before-you-go.html" class="ccs-nav-special">Know Before You Go</a></li>
   </ul>
-  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback</a>
 </nav>
 
 <!-- HERO -->
