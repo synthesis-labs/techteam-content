@@ -108,7 +108,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
       <div class="ccs-kbyg-step-num">06</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">📝 Feedback</div>
-        <p>Your opinions shape the next one. <strong>Hit the feedback button on this site</strong> after the event — it takes two minutes and it genuinely matters. <strong>Every submission enters you into a prize draw.</strong></p>
+        <p>Your opinions shape the next one. <strong>Hit the feedback button on this site</strong> before 16:00 — it takes two minutes and it genuinely matters. <strong>Every submission enters you into a prize draw.</strong></p>
       </div>
     </div>
 
