@@ -51,6 +51,7 @@ body {
   padding: 3px 12px !important;
   color: #c084fc !important;
   font-size: 13px !important;
+  white-space: nowrap;
   transition: border-color 0.15s, color 0.15s, background 0.15s !important;
 }
 .ccs-nav-special:hover,
