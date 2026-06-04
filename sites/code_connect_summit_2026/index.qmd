@@ -12,6 +12,8 @@ title: "Code Connect Summit 2026"
     <li><a href="#speakers">Speakers</a></li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="dont-get-got.html">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html">Know Before You Go</a></li>
   </ul>
   <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
 </nav>
@@ -343,5 +345,10 @@ function expandSpeaker(card) {
 <footer class="ccs-footer">
   <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
   Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+  <div class="ccs-footer-links">
+    <a href="dont-get-got.html">Don't Get Got</a>
+    &nbsp;·&nbsp;
+    <a href="know-before-you-go.html">Know Before You Go</a>
+  </div>
 </footer>
 ```

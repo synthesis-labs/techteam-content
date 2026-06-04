@@ -261,6 +261,9 @@ body {
   color: #475569; font-size: 12px; letter-spacing: 0.5px;
 }
 .ccs-footer-logo { color: #7c3aed; font-weight: 700; margin-bottom: 6px; font-size: 14px; }
+.ccs-footer-links { margin-top: 10px; font-size: 12px; }
+.ccs-footer-links a { color: #7c3aed; text-decoration: none; }
+.ccs-footer-links a:hover { color: #00e5ff; }
 
 /* ---- MOBILE ---- */
 @media (max-width: 768px) {
