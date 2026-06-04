@@ -362,20 +362,65 @@ body {
 .ccs-dgg-dialogue-them { color: #2563eb; }
 
 /* ---- KNOW BEFORE YOU GO ---- */
-.ccs-kbyg-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+.ccs-kbyg-steps { display: flex; flex-direction: column; gap: 3px; }
+
+.ccs-kbyg-step {
+  display: grid; grid-template-columns: 56px 1fr;
+  border: 1px solid rgba(0, 229, 255, 0.08);
+  border-radius: 12px; overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s;
 }
-.ccs-kbyg-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(0, 229, 255, 0.1);
-  border-radius: 10px; padding: 24px; transition: border-color 0.2s;
+.ccs-kbyg-step:hover { border-color: rgba(0, 229, 255, 0.2); }
+
+.ccs-kbyg-step-num {
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 13px; font-weight: 800; letter-spacing: 1px;
+  color: rgba(0, 229, 255, 0.3);
+  background: rgba(0, 229, 255, 0.04);
+  border-right: 1px solid rgba(0, 229, 255, 0.08);
+  writing-mode: vertical-rl; padding: 24px 0;
 }
-.ccs-kbyg-card:hover { border-color: rgba(0, 229, 255, 0.25); }
-.ccs-kbyg-card-icon { font-size: 24px; margin-bottom: 12px; }
-.ccs-kbyg-card-title { font-size: 14px; font-weight: 700; color: #e2e8f0; margin-bottom: 8px; }
-.ccs-kbyg-card-body { color: #94a3b8; font-size: 14px; line-height: 1.65; }
+
+.ccs-kbyg-step-body { padding: 24px 28px; }
+.ccs-kbyg-step-title {
+  font-size: 16px; font-weight: 700; color: #e2e8f0;
+  margin-bottom: 14px;
+}
+.ccs-kbyg-step-body p {
+  color: #94a3b8; font-size: 14px; line-height: 1.75;
+  margin-bottom: 10px;
+}
+.ccs-kbyg-step-body p:last-child { margin-bottom: 0; }
+.ccs-kbyg-step-body p strong { color: #e2e8f0; font-weight: 600; }
+.ccs-kbyg-step-body p em { color: #67e8f9; font-style: normal; }
+
+.ccs-kbyg-tip {
+  margin-top: 14px;
+  background: rgba(0, 229, 255, 0.05);
+  border: 1px solid rgba(0, 229, 255, 0.15);
+  border-radius: 8px; padding: 12px 14px;
+  font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6;
+}
+.ccs-kbyg-tip strong { color: #67e8f9; font-weight: 600; }
+.ccs-kbyg-tip em { color: #94a3b8; font-style: italic; }
+
+.ccs-kbyg-bangles {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;
+}
+.ccs-kbyg-bangle {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 12px; color: #cbd5e1;
+}
+.ccs-kbyg-bangle-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
 /* ---- MOBILE ---- */
+/* kbyg mobile handled inside main breakpoint below */
+
 @media (max-width: 768px) {
   /* Nav: stack logo + RSVP, hide links */
   .ccs-nav {
@@ -418,4 +463,8 @@ body {
 
   /* Footer */
   .ccs-footer { padding: 28px 20px; }
+
+  /* Know Before You Go */
+  .ccs-kbyg-step { grid-template-columns: 1fr; }
+  .ccs-kbyg-step-num { writing-mode: horizontal-tb; padding: 10px 16px; border-right: none; border-bottom: 1px solid rgba(0, 229, 255, 0.08); }
 }
