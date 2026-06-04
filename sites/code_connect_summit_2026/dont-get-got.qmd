@@ -12,8 +12,8 @@ title: "Don't Get Got — Code Connect Summit 2026"
     <li><a href="index.html#speakers">Speakers</a></li>
     <li><a href="index.html#schedule">Schedule</a></li>
     <li><a href="index.html#contact">Contact</a></li>
-    <li><a href="dont-get-got.html" aria-current="page">Don't Get Got</a></li>
-    <li><a href="know-before-you-go.html">Know Before You Go</a></li>
+    <li><a href="dont-get-got.html" class="ccs-nav-special" aria-current="page">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html" class="ccs-nav-special">Know Before You Go</a></li>
   </ul>
   <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
 </nav>

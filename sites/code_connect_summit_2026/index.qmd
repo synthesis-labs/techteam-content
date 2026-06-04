@@ -12,8 +12,8 @@ title: "Code Connect Summit 2026"
     <li><a href="#speakers">Speakers</a></li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="dont-get-got.html">Don't Get Got</a></li>
-    <li><a href="know-before-you-go.html">Know Before You Go</a></li>
+    <li><a href="dont-get-got.html" class="ccs-nav-special">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html" class="ccs-nav-special">Know Before You Go</a></li>
   </ul>
   <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
 </nav>
@@ -47,6 +47,23 @@ title: "Code Connect Summit 2026"
     Featuring presentations, a keynote, a panel on the future of software engineering in the age of AI, and a hands-on workshop.
     Hosted simultaneously in Johannesburg and Cape Town.
   </p>
+  <div class="ccs-about-links">
+    <a href="know-before-you-go.html" class="ccs-about-link-card">
+      <span class="ccs-about-link-icon" aria-hidden="true">📋</span>
+      <span class="ccs-about-link-title">Know Before You Go</span>
+      <span class="ccs-about-link-sub">Parking, WiFi, rooms &amp; more</span>
+    </a>
+    <a href="dont-get-got.html" class="ccs-about-link-card">
+      <span class="ccs-about-link-icon" aria-hidden="true">🎯</span>
+      <span class="ccs-about-link-title">Don't Get Got</span>
+      <span class="ccs-about-link-sub">The day's social game — read the rules</span>
+    </a>
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u" class="ccs-about-link-card ccs-about-link-card--cta">
+      <span class="ccs-about-link-icon" aria-hidden="true">✅</span>
+      <span class="ccs-about-link-title">RSVP Now</span>
+      <span class="ccs-about-link-sub">Secure your spot</span>
+    </a>
+  </div>
 </section>
 
 ```
