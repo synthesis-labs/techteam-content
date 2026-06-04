@@ -25,100 +25,65 @@ title: "Know Before You Go — Code Connect Summit 2026"
   <p class="ccs-hero-tagline">Everything you need to hit the ground running on June 5th. Read this once, show up ready.</p>
 </div>
 
-<!-- STEPS -->
+<!-- LOGISTICS -->
 <section class="ccs-section">
-  <div class="ccs-section-title">Your Game Plan</div>
+  <div class="ccs-section-title">Arrival</div>
+  <div class="ccs-kbyg-grid">
 
-  <div class="ccs-kbyg-steps">
-
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">01</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">🫡 Registration</div>
-        <p>First stop when you arrive: <strong>reception</strong>. Pick up your <strong>lanyard</strong> and name card — you'll be writing your own name on it, so bring your best handwriting (or don't, we're not judging).</p>
-        <p>You'll also choose a <strong>fluorescent bangle</strong> — each colour represents a different area of interest. Pick the one that speaks to you. It's a great conversation starter.</p>
-        <p>Fill in your <strong>status tag</strong> — your personal broadcast to the room. Tell people what you need, how you're feeling, what you're here for. <em>Needs coffee</em> is a perfectly valid status.</p>
-        <p>Your tag also has a <strong>QR code</strong> — scan it to go straight to the Code Connect Summit website for the live schedule, speaker info, and everything else you need on the day.</p>
-        <div class="ccs-kbyg-bangles">
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#39FF14"></span>Engineering &amp; Code</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FF6EC7"></span>AI &amp; Data</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FFFF33"></span>Product &amp; Design</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FF4500"></span>Architecture</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#00BFFF"></span>All of the above</span>
-        </div>
-        <div class="ccs-kbyg-tip">💡 <strong>Status ideas:</strong> <em>needs coffee</em>, <em>ask me about AI</em>, <em>first Code Connect</em>, <em>here for the prizes</em>, <em>send help</em>. Be creative. Be honest.</div>
-      </div>
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🫡</div>
+      <div class="ccs-kbyg-card-title">Registration</div>
+      <p class="ccs-kbyg-card-body">First stop: <strong>reception</strong>. Pick up your lanyard and name card — you'll write your own name on it. Choose a <strong>fluorescent bangle</strong> (your area of interest), and fill in your <strong>status tag</strong>. Your tag has a QR code linking to the live schedule and speaker info.</p>
+      <p class="ccs-kbyg-card-body" style="margin-top:8px;font-size:12px;color:#475569;font-style:italic;">Bangle colours: 🟢 Engineering &amp; Code &nbsp;·&nbsp; 🩷 AI &amp; Data &nbsp;·&nbsp; 🟡 Product &amp; Design &nbsp;·&nbsp; 🔴 Architecture &nbsp;·&nbsp; 🔵 All of the above</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">02</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">☕ Fuel Station</div>
-        <p>The <strong>snack area</strong> is right next to the coffee machine — and yes, it will be stocked. Help yourself throughout the day. We know how this community operates and we have planned accordingly.</p>
-        <p>Lunch will also be provided for everyone joining in person — come hungry, stay fuelled.</p>
-        <div class="ccs-kbyg-tip">⚠️ <strong>Dietary requirements?</strong> If you haven't yet noted them on your RSVP form, reach out to <strong>Archie or Kieron</strong> on Teams as soon as possible.</div>
-      </div>
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">📍</div>
+      <div class="ccs-kbyg-card-title">Finding the Venue</div>
+      <p class="ccs-kbyg-card-body">Look for the <strong>Code Connect Summit tunnel</strong> — it leads straight to the Training Rooms. You genuinely will not miss it. The tunnel is an experience in itself. We'll say no more. Just walk through it.</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">03</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">📍 Finding the Main Event</div>
-        <p>The main event is in the <strong>Training Rooms</strong> — look for the <strong>Code Connect Summit tunnel</strong> which will lead you straight to the entrance. You genuinely will not miss it.</p>
-        <div class="ccs-kbyg-tip">✨ <strong>The tunnel is an experience in itself.</strong> We'll say no more. Just walk through it.</div>
-      </div>
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">☕</div>
+      <div class="ccs-kbyg-card-title">Fuel Station</div>
+      <p class="ccs-kbyg-card-body">Snacks are right next to the coffee machine and will be stocked all day. Lunch is provided for all in-person attendees. If you have dietary requirements you haven't noted yet, ping <strong>Archie or Kieron on Teams</strong> ASAP.</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">04</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">💻 Joining Online</div>
-        <p>Can't be in the room? Code Connect Summit 2026 is a <strong>hybrid event</strong>. The <strong>Teams link is active from 09:00</strong> — log on, get comfortable, and join from wherever you are.</p>
-        <p>The Teams link should already be in your diary from the calendar invite. If it isn't, ping <strong>Archie or Kieron on Teams</strong> and we'll get you sorted.</p>
-        <div class="ccs-kbyg-tip">💡 <strong>Online attendees:</strong> You can still fill in feedback forms and enter the raffle draws — don't let being remote stop you from winning something.</div>
-      </div>
+  </div>
+</section>
+
+<!-- ON THE DAY -->
+<section class="ccs-section" style="padding-top:0;">
+  <div class="ccs-section-title">On the Day</div>
+  <div class="ccs-kbyg-grid">
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">💻</div>
+      <div class="ccs-kbyg-card-title">Joining Online</div>
+      <p class="ccs-kbyg-card-body">It's a <strong>hybrid event</strong> — Teams link is active from 09:00. Check your calendar invite for the link. If it's missing, ping <strong>Archie or Kieron on Teams</strong>. Online attendees can still enter all raffle draws.</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">05</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">📅 Live Schedule</div>
-        <p>The <strong>full schedule</strong> is live on this website. Your tag's QR code takes you straight there. We'll keep to time as best we can — but occasionally a great conversation runs a little long and that's a good thing.</p>
-      </div>
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">📝</div>
+      <div class="ccs-kbyg-card-title">Feedback Forms</div>
+      <p class="ccs-kbyg-card-body">Fill in a feedback form after each session — it takes 60 seconds and helps us make the next one better. <strong>Each submission is also a raffle entry</strong> for a separate prize draw. Fill them in as you go while it's fresh.</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">06</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">📝 Feedback Forms</div>
-        <p>After each session, <strong>please take a moment to fill in your feedback form</strong>. This is how we make Code Connect Summit better every time. Your thoughts, your ratings, your suggestions — they genuinely matter and we genuinely read them.</p>
-        <p>Fill them in as you go so the details are fresh. It takes about 60 seconds per session.</p>
-        <div class="ccs-kbyg-tip">💡 <strong>Bonus:</strong> Each feedback form submission is also a <strong>raffle entry</strong> — a separate draw with its own prize. More forms = more chances.</div>
-      </div>
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🎁</div>
+      <div class="ccs-kbyg-card-title">The Raffle(s)</div>
+      <p class="ccs-kbyg-card-body">Two ways to win: submit your <strong>lanyard + name tag</strong> for draw #1, and your <strong>feedback forms</strong> for draw #2. Both draws happen at <strong>16:00</strong> during the final session. The silliest outfit prize is also awarded then. Don't leave early.</p>
     </div>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">07</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">🎁 The Raffle(s)</div>
-        <p>There are <strong>two ways to win</strong>. At the end of the day, submit your <strong>lanyard and name tag</strong> into the raffle draw. Feedback forms have their own separate raffle prize too — so every session you rate is another entry.</p>
-        <p>Both draws happen at <strong>16:00 during the final thank you and prize session</strong>. Don't leave early.</p>
-        <p>And yes — the <strong>silliest outfit prize</strong> is also being awarded then. Kieron. We are watching. 🤸</p>
-        <div class="ccs-kbyg-tip">🎯 <strong>Raffle checklist:</strong> Submit your <strong>lanyard + tag</strong> for draw #1. Submit your <strong>feedback forms</strong> for draw #2. Stay until the end. Win things.</div>
-      </div>
-    </div>
+  </div>
+</section>
 
-    <div class="ccs-kbyg-step">
-      <div class="ccs-kbyg-step-num">08</div>
-      <div class="ccs-kbyg-step-body">
-        <div class="ccs-kbyg-step-title">🚀 Have the Best Time</div>
-        <p>Genuinely — <strong>talk to people</strong>. That person you've been on calls with for six months but never met in person? Today's the day. The developer in a totally different team building something that would blow your mind? They're here. Go find them.</p>
-        <p>Code Connect Summit exists because the technical depth in this organisation is extraordinary and it deserves to be seen, celebrated, and built on. Geek out. Ask questions. Share what you know. Be curious. Be present.</p>
-        <p>And if you spot Kieron in his Yoda outfit — absolutely take photos. In fact, <em>please</em> take photos. We want all of it documented.</p>
-        <div class="ccs-kbyg-tip">📸 <strong>Join the Code Connect Community on Engage</strong> and post your pictures — especially the funky costumes. Find the link on the website and get in there before the day kicks off.</div>
-      </div>
-    </div>
-
+<!-- CLOSING -->
+<section class="ccs-section" style="padding-top:0;">
+  <div class="ccs-rsvp-box" style="text-align:left;">
+    <p style="font-size:18px;font-weight:700;color:#e2e8f0;margin-bottom:12px;">🚀 Have the Best Time</p>
+    <p>Talk to people. That person you've been on calls with for six months but never met? Today's the day. Geek out. Ask questions. Share what you know. Be curious. Be present.</p>
+    <p style="margin-top:10px;">And if you spot Kieron in his Yoda outfit — absolutely take photos. In fact, <em>please</em> take photos. Post everything to the <strong>Code Connect Community on Engage</strong>.</p>
   </div>
 </section>
 
