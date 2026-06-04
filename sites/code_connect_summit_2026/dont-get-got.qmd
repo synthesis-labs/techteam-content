@@ -43,16 +43,15 @@ title: "Don't Get Got — Code Connect Summit 2026"
       <div class="ccs-dgg-rule-number">02</div>
       <div class="ccs-dgg-rule-body">
         <div class="ccs-dgg-rule-title">Claim the Victory</div>
-        <p>When a mission is complete, take a selfie with your mark and caption it with the mission. Then tick it off your lanyard.</p>
+        <p>When a mission is complete, take a selfie with your mark and caption it with the mission. Post it to the <a href="https://engage.cloud.microsoft/main/org/synthesis.co.za/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyNTYyNjkyMDU1MDQifQ" target="_blank" rel="noopener" style="color:#00e5ff;">CCS community on Engage</a>. Then tick the mission off your lanyard.</p>
       </div>
     </div>
 
     <div class="ccs-dgg-rule">
       <div class="ccs-dgg-rule-number">03</div>
       <div class="ccs-dgg-rule-body">
-        <div class="ccs-dgg-rule-title">Submit for a Prize</div>
-        <p>Once all 4 missions are complete, take a photo of your lanyard and submit it to enter the prize draw.</p>
-        <p style="margin-top:12px;color:#475569;font-style:italic;">Submission link coming soon.</p>
+        <div class="ccs-dgg-rule-title">Enter the Prize Draw</div>
+        <p>Once all 4 missions are complete, hand your lanyard in to Archie, Kieron, or Angie during the last break of the day (15:45–16:05). We'll draw a lanyard to determine the winner.</p>
       </div>
     </div>
 
@@ -70,7 +69,7 @@ title: "Don't Get Got — Code Connect Summit 2026"
   <div class="ccs-dgg-bonus">
     <div class="ccs-dgg-bonus-label">⭐ Bonus Mission — Cannot Be Lost</div>
     <div class="ccs-dgg-bonus-title">The Classic</div>
-    <p>Every player has a fifth bonus mission that can never be taken away from you:</p>
+    <p>Every player has a fifth bonus mission that can never be taken away from you. And yes — posting the selfie of someone who fell for this one is <strong>especially</strong> encouraged.</p>
     <div class="ccs-dgg-dialogue">
       <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-you">You: <span>"Guess what?"</span></div>
       <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-them">Them: <span>"What?"</span></div>
