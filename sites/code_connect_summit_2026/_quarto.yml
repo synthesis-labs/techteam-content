@@ -1,4 +1,5 @@
 project:
+  type: website
   output-dir: ../../dist/sites/code_connect_summit_2026
 
 format:
