@@ -362,18 +362,37 @@ body {
 .ccs-dgg-dialogue-them { color: #2563eb; }
 
 /* ---- KNOW BEFORE YOU GO ---- */
-.ccs-kbyg-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+.ccs-kbyg-steps { display: flex; flex-direction: column; gap: 3px; }
+.ccs-kbyg-step {
+  display: grid; grid-template-columns: 56px 1fr;
+  border: 1px solid rgba(0, 229, 255, 0.08);
+  border-radius: 12px; overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s;
 }
-.ccs-kbyg-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(0, 229, 255, 0.1);
-  border-radius: 10px; padding: 24px; transition: border-color 0.2s;
+.ccs-kbyg-step:hover { border-color: rgba(0, 229, 255, 0.2); }
+.ccs-kbyg-step-num {
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 13px; font-weight: 800; letter-spacing: 1px;
+  color: rgba(0, 229, 255, 0.35);
+  background: rgba(0, 229, 255, 0.04);
+  border-right: 1px solid rgba(0, 229, 255, 0.08);
+  writing-mode: vertical-rl; padding: 24px 0;
 }
-.ccs-kbyg-card:hover { border-color: rgba(0, 229, 255, 0.25); }
-.ccs-kbyg-card-icon { font-size: 24px; margin-bottom: 12px; }
-.ccs-kbyg-card-title { font-size: 14px; font-weight: 700; color: #e2e8f0; margin-bottom: 8px; }
-.ccs-kbyg-card-body { color: #94a3b8; font-size: 14px; line-height: 1.65; }
+.ccs-kbyg-step-body { padding: 22px 28px; }
+.ccs-kbyg-step-title { font-size: 15px; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; }
+.ccs-kbyg-step-body p { color: #94a3b8; font-size: 14px; line-height: 1.7; margin-bottom: 0; }
+.ccs-kbyg-step-body p strong { color: #e2e8f0; font-weight: 600; }
+.ccs-kbyg-bangles { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.ccs-kbyg-bangle {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 12px; color: #94a3b8;
+}
+.ccs-kbyg-bangle-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
 /* ---- MOBILE ---- */
 /* ---- MOBILE ---- (kbyg handled below) */
@@ -422,5 +441,6 @@ body {
   .ccs-footer { padding: 28px 20px; }
 
   /* Know Before You Go */
-  .ccs-kbyg-grid { grid-template-columns: 1fr; }
+  .ccs-kbyg-step { grid-template-columns: 1fr; }
+  .ccs-kbyg-step-num { writing-mode: horizontal-tb; padding: 10px 16px; border-right: none; border-bottom: 1px solid rgba(0, 229, 255, 0.08); }
 }
