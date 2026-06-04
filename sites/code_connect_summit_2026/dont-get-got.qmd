@@ -1,0 +1,93 @@
+---
+title: "Don't Get Got — Code Connect Summit 2026"
+---
+
+```{=html}
+<!-- NAV -->
+<nav class="ccs-nav" aria-label="Site navigation">
+  <a class="ccs-nav-logo" href="index.html"><img src="images/Araxi_Group_Synthesis_White.png" alt="Synthesis" style="height:108px;"></a>
+  <ul class="ccs-nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#hosts">Hosts</a></li>
+    <li><a href="index.html#speakers">Speakers</a></li>
+    <li><a href="index.html#schedule">Schedule</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="dont-get-got.html" aria-current="page">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html">Know Before You Go</a></li>
+  </ul>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
+</nav>
+
+<!-- HERO -->
+<div class="ccs-hero">
+  <div class="ccs-hero-label">Conference · 2026</div>
+  <h1 class="ccs-hero-title">Don't Get Got</h1>
+  <p class="ccs-hero-tagline">A social deduction game played throughout the day. Complete missions. Claim victories. Don't get caught.</p>
+</div>
+
+<!-- RULES -->
+<section class="ccs-section">
+  <div class="ccs-section-title">How to Play</div>
+
+  <div class="ccs-dgg-rules">
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">01</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Your Lanyard Has 4 Missions</div>
+        <p>On the back of your lanyard are 4 missions — things you need to get another player to do or say. Your mark must do or say it as a <strong>direct result of your action</strong>. Overhearing someone doesn't count.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">02</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Claim the Victory</div>
+        <p>When a mission is complete, take a selfie with your mark and caption it with the mission. Then tick it off your lanyard.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">03</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Submit for a Prize</div>
+        <p>Once all 4 missions are complete, take a photo of your lanyard and submit it to enter the prize draw.</p>
+        <p style="margin-top:12px;color:#475569;font-style:italic;">Submission link coming soon.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule ccs-dgg-rule--danger">
+      <div class="ccs-dgg-rule-number">04</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Getting Caught</div>
+        <p>At any point, if your mark says <strong>"Is this for the game?"</strong> — you lose that mission and cannot attempt it again for the rest of the day. Cross it off your list.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BONUS MISSION -->
+  <div class="ccs-dgg-bonus">
+    <div class="ccs-dgg-bonus-label">⭐ Bonus Mission — Cannot Be Lost</div>
+    <div class="ccs-dgg-bonus-title">The Classic</div>
+    <p>Every player has a fifth bonus mission that can never be taken away from you:</p>
+    <div class="ccs-dgg-dialogue">
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-you">You: <span>"Guess what?"</span></div>
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-them">Them: <span>"What?"</span></div>
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-you">You: <span>"You just got got."</span></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="ccs-footer">
+  <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
+  Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+  <div class="ccs-footer-links">
+    <a href="dont-get-got.html">Don't Get Got</a>
+    &nbsp;·&nbsp;
+    <a href="know-before-you-go.html">Know Before You Go</a>
+  </div>
+</footer>
+```

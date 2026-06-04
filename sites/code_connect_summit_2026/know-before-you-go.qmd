@@ -1,0 +1,90 @@
+---
+title: "Know Before You Go — Code Connect Summit 2026"
+---
+
+```{=html}
+<!-- NAV -->
+<nav class="ccs-nav" aria-label="Site navigation">
+  <a class="ccs-nav-logo" href="index.html"><img src="images/Araxi_Group_Synthesis_White.png" alt="Synthesis" style="height:108px;"></a>
+  <ul class="ccs-nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#hosts">Hosts</a></li>
+    <li><a href="index.html#speakers">Speakers</a></li>
+    <li><a href="index.html#schedule">Schedule</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="dont-get-got.html">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html" aria-current="page">Know Before You Go</a></li>
+  </ul>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUQTJHV1Q1SUtVSjlDMVBZQTdOMTdUVlNWMS4u">RSVP Now</a>
+</nav>
+
+<!-- HERO -->
+<div class="ccs-hero">
+  <div class="ccs-hero-label">Conference · 2026</div>
+  <h1 class="ccs-hero-title">Know Before<br>You Go</h1>
+  <p class="ccs-hero-tagline">Everything you need to know before arriving at Code Connect Summit 2026.</p>
+</div>
+
+<!-- LOGISTICS -->
+<section class="ccs-section">
+  <div class="ccs-section-title">Logistics</div>
+  <div class="ccs-kbyg-grid">
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🚗</div>
+      <div class="ccs-kbyg-card-title">Parking</div>
+      <p class="ccs-kbyg-card-body">Parking details to be confirmed.</p>
+    </div>
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">👔</div>
+      <div class="ccs-kbyg-card-title">Dress Code</div>
+      <p class="ccs-kbyg-card-body">Dress code details to be confirmed.</p>
+    </div>
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🎒</div>
+      <div class="ccs-kbyg-card-title">What to Bring</div>
+      <p class="ccs-kbyg-card-body">What to bring details to be confirmed.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DAY-OF INFO -->
+<section class="ccs-section" style="padding-top:0;">
+  <div class="ccs-section-title">On the Day</div>
+  <div class="ccs-kbyg-grid">
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">📶</div>
+      <div class="ccs-kbyg-card-title">WiFi</div>
+      <p class="ccs-kbyg-card-body">WiFi details to be confirmed.</p>
+    </div>
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🏛</div>
+      <div class="ccs-kbyg-card-title">Room Locations</div>
+      <p class="ccs-kbyg-card-body">JHB: Training Room &nbsp;·&nbsp; CPT: Table Mountain &amp; Newlands Meeting Rooms. Detailed directions to be confirmed.</p>
+    </div>
+
+    <div class="ccs-kbyg-card">
+      <div class="ccs-kbyg-card-icon" aria-hidden="true">🍽</div>
+      <div class="ccs-kbyg-card-title">Lunch</div>
+      <p class="ccs-kbyg-card-body">Lunch details to be confirmed.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ccs-footer">
+  <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
+  Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+  <div class="ccs-footer-links">
+    <a href="dont-get-got.html">Don't Get Got</a>
+    &nbsp;·&nbsp;
+    <a href="know-before-you-go.html">Know Before You Go</a>
+  </div>
+</footer>
+```

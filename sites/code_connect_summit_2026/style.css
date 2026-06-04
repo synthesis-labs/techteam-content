@@ -44,6 +44,7 @@ body {
   transition: color 0.15s;
 }
 .ccs-nav-links a:hover { color: #00e5ff; }
+.ccs-nav-links a[aria-current="page"] { color: #00e5ff; }
 .ccs-nav-rsvp {
   background: linear-gradient(90deg, #7c3aed, #2563eb);
   color: #fff; border: none; border-radius: 5px;
@@ -264,6 +265,70 @@ body {
 .ccs-footer-links { margin-top: 10px; font-size: 12px; }
 .ccs-footer-links a { color: #7c3aed; text-decoration: none; }
 .ccs-footer-links a:hover { color: #00e5ff; }
+
+/* ---- DON'T GET GOT ---- */
+.ccs-dgg-rules {
+  display: flex; flex-direction: column; gap: 2px; margin-bottom: 48px;
+}
+.ccs-dgg-rule {
+  display: flex; gap: 24px; align-items: flex-start;
+  padding: 24px; border: 1px solid rgba(0, 229, 255, 0.08);
+  border-radius: 10px; background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s;
+}
+.ccs-dgg-rule:hover { border-color: rgba(0, 229, 255, 0.2); }
+.ccs-dgg-rule--danger {
+  border-color: rgba(239, 68, 68, 0.15);
+  background: rgba(239, 68, 68, 0.04);
+}
+.ccs-dgg-rule--danger:hover { border-color: rgba(239, 68, 68, 0.35); }
+.ccs-dgg-rule-number {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 22px; font-weight: 800;
+  color: rgba(0, 229, 255, 0.25);
+  flex-shrink: 0; width: 36px; padding-top: 2px;
+}
+.ccs-dgg-rule--danger .ccs-dgg-rule-number { color: rgba(239, 68, 68, 0.35); }
+.ccs-dgg-rule-title { font-size: 15px; font-weight: 700; color: #e2e8f0; margin-bottom: 8px; }
+.ccs-dgg-rule-body p { color: #94a3b8; font-size: 15px; line-height: 1.7; }
+.ccs-dgg-rule-body p strong { color: #e2e8f0; }
+.ccs-dgg-bonus {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(37, 99, 235, 0.08));
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  border-radius: 14px; padding: 36px 40px;
+}
+.ccs-dgg-bonus-label {
+  font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+  color: #c084fc; margin-bottom: 10px;
+}
+.ccs-dgg-bonus-title { font-size: 20px; font-weight: 800; color: #e2e8f0; margin-bottom: 12px; }
+.ccs-dgg-bonus p { color: #94a3b8; font-size: 15px; margin-bottom: 20px; }
+.ccs-dgg-dialogue {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 20px 24px; background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px; border-left: 3px solid #7c3aed;
+}
+.ccs-dgg-dialogue-line {
+  font-size: 14px; color: #64748b;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+.ccs-dgg-dialogue-line span { color: #e2e8f0; font-style: italic; }
+.ccs-dgg-dialogue-you { color: #7c3aed; }
+.ccs-dgg-dialogue-them { color: #2563eb; }
+
+/* ---- KNOW BEFORE YOU GO ---- */
+.ccs-kbyg-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+}
+.ccs-kbyg-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 229, 255, 0.1);
+  border-radius: 10px; padding: 24px; transition: border-color 0.2s;
+}
+.ccs-kbyg-card:hover { border-color: rgba(0, 229, 255, 0.25); }
+.ccs-kbyg-card-icon { font-size: 24px; margin-bottom: 12px; }
+.ccs-kbyg-card-title { font-size: 14px; font-weight: 700; color: #e2e8f0; margin-bottom: 8px; }
+.ccs-kbyg-card-body { color: #94a3b8; font-size: 14px; line-height: 1.65; }
 
 /* ---- MOBILE ---- */
 @media (max-width: 768px) {
