@@ -51,7 +51,7 @@ title: "Don't Get Got — Code Connect Summit 2026"
       <div class="ccs-dgg-rule-number">03</div>
       <div class="ccs-dgg-rule-body">
         <div class="ccs-dgg-rule-title">Enter the Prize Draw</div>
-        <p>Once all 4 missions are complete, hand your lanyard in to Archie or Kieron (JHB) or Angie (CPT) during the last break of the day (15:45–16:05). We'll draw a lanyard to determine the winner.</p>
+        <p>Once all 4 missions are complete, hand your lanyard in to Archie or Kieron (JHB) or Angie (CPT) during the last break of the day (15:45–16:05). We'll draw a lanyard per city to determine the winner — one winner in JHB, one in CPT.</p>
       </div>
     </div>
 
