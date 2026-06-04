@@ -25,8 +25,41 @@ title: "Know Before You Go — Code Connect Summit 2026"
   <p class="ccs-hero-tagline">Everything you need for June 5th. Read once, show up ready.</p>
 </div>
 
-<!-- STEPS -->
+<!-- BANGLES -->
 <section class="ccs-section">
+  <div class="ccs-section-title">Pick Your Bangle</div>
+  <p class="ccs-about-text" style="margin-bottom:24px;">When you arrive, you'll choose a fluorescent bangle — one per person. It shows the room what you're about and sparks conversations. Pick the one that fits.</p>
+  <div class="ccs-kbyg-bangle-grid">
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#39FF14;box-shadow:0 0 18px rgba(57,255,20,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Engineering &amp; Code</div>
+      <div class="ccs-kbyg-bangle-card-sub">You write the stuff. You love the craft.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FF6EC7;box-shadow:0 0 18px rgba(255,110,199,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">AI &amp; Data</div>
+      <div class="ccs-kbyg-bangle-card-sub">Models, pipelines, and making sense of it all.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FFFF33;box-shadow:0 0 18px rgba(255,255,51,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Product &amp; Design</div>
+      <div class="ccs-kbyg-bangle-card-sub">You care about how it looks and how it works.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FF4500;box-shadow:0 0 18px rgba(255,69,0,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Architecture</div>
+      <div class="ccs-kbyg-bangle-card-sub">Big picture. Systems thinking. The long game.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#00BFFF;box-shadow:0 0 18px rgba(0,191,255,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">All of the Above</div>
+      <div class="ccs-kbyg-bangle-card-sub">Chaos generalist. No notes.</div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="ccs-section" style="padding-top:0;">
   <div class="ccs-section-title">Your Game Plan</div>
 
   <div class="ccs-kbyg-steps">
@@ -35,14 +68,7 @@ title: "Know Before You Go — Code Connect Summit 2026"
       <div class="ccs-kbyg-step-num">01</div>
       <div class="ccs-kbyg-step-body">
         <div class="ccs-kbyg-step-title">🫡 Registration</div>
-        <p>Head to <strong>reception</strong> first. Grab your lanyard, write your name on your name card, pick a <strong>fluorescent bangle</strong> (your area of interest), and fill in your <strong>status tag</strong>. The tag has a QR code linking straight to the live schedule.</p>
-        <div class="ccs-kbyg-bangles">
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#39FF14"></span>Engineering &amp; Code</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FF6EC7"></span>AI &amp; Data</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FFFF33"></span>Product &amp; Design</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#FF4500"></span>Architecture</span>
-          <span class="ccs-kbyg-bangle"><span class="ccs-kbyg-bangle-dot" style="background:#00BFFF"></span>All of the above</span>
-        </div>
+        <p>Head to <strong>reception</strong> first. Grab your lanyard, write your name on your name card, pick your bangle, and fill in your <strong>status tag</strong>. The tag has a QR code linking straight to the live schedule.</p>
       </div>
     </div>
 

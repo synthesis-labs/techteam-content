@@ -394,6 +394,27 @@ body {
 }
 .ccs-kbyg-bangle-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
+.ccs-kbyg-bangle-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px;
+}
+.ccs-kbyg-bangle-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 20px 16px;
+  text-align: center; transition: border-color 0.2s, background 0.2s;
+}
+.ccs-kbyg-bangle-card:hover { background: rgba(255,255,255,0.05); }
+.ccs-kbyg-bangle-swatch {
+  width: 40px; height: 40px; border-radius: 50%;
+  margin: 0 auto 14px;
+}
+.ccs-kbyg-bangle-card-title {
+  font-size: 13px; font-weight: 700; color: #e2e8f0; margin-bottom: 6px;
+}
+.ccs-kbyg-bangle-card-sub {
+  font-size: 12px; color: #64748b; line-height: 1.5;
+}
+
 /* ---- MOBILE ---- */
 /* ---- MOBILE ---- (kbyg handled below) */
 
@@ -443,4 +464,5 @@ body {
   /* Know Before You Go */
   .ccs-kbyg-step { grid-template-columns: 1fr; }
   .ccs-kbyg-step-num { writing-mode: horizontal-tb; padding: 10px 16px; border-right: none; border-bottom: 1px solid rgba(0, 229, 255, 0.08); }
+  .ccs-kbyg-bangle-grid { grid-template-columns: repeat(2, 1fr); }
 }
