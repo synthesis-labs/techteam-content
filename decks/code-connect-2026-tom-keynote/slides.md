@@ -450,6 +450,30 @@ Programmable Layer — repeatable workflows, patterns and processes.
 </style>
 
 ---
+
+# Live demo
+
+<div class="grid grid-cols-2 gap-12 mt-4 items-center">
+<div>
+
+**What we're doing:**
+- Open Claude Code at [claude.ai/code](https://claude.ai/code)
+- Pick up a session that's already tied to a git repo
+- Make a change — live, in real time
+
+<div class="mt-6 text-sm text-muted italic">
+(no installs, no setup — just a browser)
+</div>
+
+</div>
+<div class="flex justify-center">
+
+<img src="/demo-in-action.jpg" class="rounded-lg shadow-xl max-h-[420px] object-cover" alt="Claude Code open at claude.ai/code on a MacBook" />
+
+</div>
+</div>
+
+---
 layout: section
 number: "02"
 title: Rethink the OS
