@@ -47,7 +47,7 @@ jobs:
             site_name="$(basename "$site_dir")"
             [ -f "$site_dir/index.qmd" ] || continue
             echo "Rendering site: $site_name"
-            (cd "$site_dir" && quarto render "index.qmd")
+            (cd "$site_dir" && quarto render)
           done
 
       - uses: actions/setup-node@v4

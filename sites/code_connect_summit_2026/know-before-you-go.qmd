@@ -1,0 +1,152 @@
+---
+title: "Know Before You Go — Code Connect Summit 2026"
+---
+
+```{=html}
+<!-- NAV -->
+<nav class="ccs-nav" aria-label="Site navigation">
+  <a class="ccs-nav-logo" href="index.html"><img src="images/Araxi_Group_Synthesis_White.png" alt="Synthesis" style="height:108px;"></a>
+  <ul class="ccs-nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#hosts">Hosts</a></li>
+    <li><a href="index.html#speakers">Speakers</a></li>
+    <li><a href="index.html#schedule">Schedule</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="dont-get-got.html" class="ccs-nav-special">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html" class="ccs-nav-special" aria-current="page">Know Before You Go</a></li>
+  </ul>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback</a>
+</nav>
+
+<!-- HERO -->
+<div class="ccs-hero">
+  <div class="ccs-hero-label">Conference · 2026</div>
+  <h1 class="ccs-hero-title">Know Before<br>You Go</h1>
+  <p class="ccs-hero-tagline">Everything you need for June 5th. Read once, show up ready.</p>
+</div>
+
+<!-- BANGLES -->
+<section class="ccs-section">
+  <div class="ccs-section-title">Pick Your Bangle</div>
+  <p class="ccs-about-text" style="margin-bottom:24px;">When you arrive, you'll choose a fluorescent bangle — one per person. It shows the room what you're about and sparks conversations. Pick the one that fits.</p>
+  <div class="ccs-kbyg-bangle-grid">
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FFD700;box-shadow:0 0 18px rgba(255,215,0,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Engineering &amp; Code</div>
+      <div class="ccs-kbyg-bangle-card-sub">You write the stuff. You love the craft.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FF8C00;box-shadow:0 0 18px rgba(255,140,0,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">AI &amp; Data</div>
+      <div class="ccs-kbyg-bangle-card-sub">Models, pipelines, and making sense of it all.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#39FF14;box-shadow:0 0 18px rgba(57,255,20,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Product &amp; Design</div>
+      <div class="ccs-kbyg-bangle-card-sub">You care about how it looks and how it works.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:#FF2020;box-shadow:0 0 18px rgba(255,32,32,0.5)"></div>
+      <div class="ccs-kbyg-bangle-card-title">Architecture</div>
+      <div class="ccs-kbyg-bangle-card-sub">Big picture. Systems thinking. The long game.</div>
+    </div>
+    <div class="ccs-kbyg-bangle-card">
+      <div class="ccs-kbyg-bangle-swatch" style="background:rgba(255,255,255,0.15);box-shadow:0 0 18px rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3)"></div>
+      <div class="ccs-kbyg-bangle-card-title">All of the Above</div>
+      <div class="ccs-kbyg-bangle-card-sub">Chaos generalist. No notes.</div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="ccs-section" style="padding-top:0;">
+  <div class="ccs-section-title">Your Game Plan</div>
+
+  <div class="ccs-kbyg-steps">
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">01</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">🫡 Registration</div>
+        <p>Head to <strong>reception</strong> first. Grab your lanyard, write your name on your name card, pick your bangle, and fill in your <strong>status tag</strong>. The tag has a QR code linking straight to the live schedule.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">02</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">👗 Dress Code</div>
+        <p>Wear whatever you want — but <strong>wear something silly</strong>. There's a prize for it. No further explanation needed.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">03</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">🐛 Syntax Error Board</div>
+        <p>In the games area you'll find a board covered in stickies. Add yours: <strong>what's the biggest code mistake you've ever made?</strong> Dropped databases, expired certs, lost repos — whatever you're comfortable sharing. We're all human.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">04</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">📍 Finding the Venue</div>
+        <p>Follow the <strong>Code Connect Summit tunnel</strong> — it leads straight to the Training Rooms. You will not miss it. The tunnel is an experience in itself. We'll say no more.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">05</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">☕ Food &amp; Drink</div>
+        <p>Snacks and coffee are available all day. Lunch is provided. Dietary requirements not on your RSVP? Ping <strong>Archie or Kieron on Teams</strong> now.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">06</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">💻 Joining Online</div>
+        <p>Hybrid event — <strong>Teams link active from 09:00</strong>. Check your calendar invite. Online attendees can enter all raffle draws too.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">07</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">📝 Feedback</div>
+        <p>Your opinions shape the next one. <strong>Hit the feedback button on this site</strong> before 16:00 — it takes two minutes and it genuinely matters. <strong>Every submission enters you into a prize draw.</strong></p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">08</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">🎁 The Raffle(s)</div>
+        <p><strong>Two draws at 16:00.</strong> Submit your <strong>lanyard + name tag</strong> for draw #1. Submit <strong>feedback forms</strong> for draw #2. Silliest outfit prize also at 16:00. Don't leave early.</p>
+      </div>
+    </div>
+
+    <div class="ccs-kbyg-step">
+      <div class="ccs-kbyg-step-num">09</div>
+      <div class="ccs-kbyg-step-body">
+        <div class="ccs-kbyg-step-title">🚀 Have the Best Time</div>
+        <p>Talk to people. Geek out. That person you've been on calls with for months but never met in person? Today's the day. Post everything to the <strong>Code Connect Community on Engage</strong> — especially the costumes.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ccs-footer">
+  <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
+  Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+  <div class="ccs-footer-links">
+    <a href="dont-get-got.html">Don't Get Got</a>
+    &nbsp;·&nbsp;
+    <a href="know-before-you-go.html">Know Before You Go</a>
+  </div>
+</footer>
+```

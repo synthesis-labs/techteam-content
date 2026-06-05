@@ -1,0 +1,92 @@
+---
+title: "Don't Get Got — Code Connect Summit 2026"
+---
+
+```{=html}
+<!-- NAV -->
+<nav class="ccs-nav" aria-label="Site navigation">
+  <a class="ccs-nav-logo" href="index.html"><img src="images/Araxi_Group_Synthesis_White.png" alt="Synthesis" style="height:108px;"></a>
+  <ul class="ccs-nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#hosts">Hosts</a></li>
+    <li><a href="index.html#speakers">Speakers</a></li>
+    <li><a href="index.html#schedule">Schedule</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="dont-get-got.html" class="ccs-nav-special" aria-current="page">Don't Get Got</a></li>
+    <li><a href="know-before-you-go.html" class="ccs-nav-special">Know Before You Go</a></li>
+  </ul>
+  <a class="ccs-nav-rsvp" href="https://forms.office.com/Pages/ResponsePage.aspx?id=hdvPlCM9SUigZlza2WXM2AYv7RPSF49BsSdfvCGj1WdUMDAyWEJWOUc4S1EyMlJWWDJSWEVMSFc2OC4u">Give Feedback</a>
+</nav>
+
+<!-- HERO -->
+<div class="ccs-hero">
+  <div class="ccs-hero-label">Conference · 2026</div>
+  <h1 class="ccs-hero-title">Don't Get Got</h1>
+  <p class="ccs-hero-tagline">A social deduction game played throughout the day. Complete missions. Claim victories. Don't get caught.</p>
+</div>
+
+<!-- RULES -->
+<section class="ccs-section">
+  <div class="ccs-section-title">How to Play</div>
+
+  <div class="ccs-dgg-rules">
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">01</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Your Lanyard Has 4 Missions</div>
+        <p>On the back of your lanyard are 4 missions — things you need to get another player to do or say. Your mark must do or say it as a <strong>direct result of your action</strong>. Overhearing someone doesn't count.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">02</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Claim the Victory</div>
+        <p>When a mission is complete, take a selfie with your mark and caption it with the mission. Post it to the <a href="https://engage.cloud.microsoft/main/org/synthesis.co.za/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyNTYyNjkyMDU1MDQifQ" target="_blank" rel="noopener" style="color:#00e5ff;">CCS community on Engage</a>. Then tick the mission off your lanyard.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule">
+      <div class="ccs-dgg-rule-number">03</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Enter the Prize Draw</div>
+        <p>Once all 4 missions are complete, hand your lanyard in to Archie or Kieron (JHB) or Angie (CPT) during the last break of the day (15:45–16:05). We'll draw a lanyard per city to determine the winner — one winner in JHB, one in CPT.</p>
+      </div>
+    </div>
+
+    <div class="ccs-dgg-rule ccs-dgg-rule--danger">
+      <div class="ccs-dgg-rule-number">04</div>
+      <div class="ccs-dgg-rule-body">
+        <div class="ccs-dgg-rule-title">Getting Caught</div>
+        <p>At any point, if your mark says <strong>"Is this for the game?"</strong> — you lose that mission and cannot attempt it again for the rest of the day. Cross it off your list.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BONUS MISSION -->
+  <div class="ccs-dgg-bonus">
+    <div class="ccs-dgg-bonus-label">⭐ Bonus Mission — Cannot Be Lost</div>
+    <div class="ccs-dgg-bonus-title">The Classic</div>
+    <p>Every player has a fifth bonus mission that can never be taken away from you. And yes — posting the selfie of someone who fell for this one is <strong>especially</strong> encouraged.</p>
+    <div class="ccs-dgg-dialogue">
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-you">You: <span>"Guess what?"</span></div>
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-them">Them: <span>"What?"</span></div>
+      <div class="ccs-dgg-dialogue-line ccs-dgg-dialogue-you">You: <span>"You just got got."</span></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="ccs-footer">
+  <div class="ccs-footer-logo"><span aria-hidden="true">⬡</span> synthesis</div>
+  Code Connect Summit 2026 &nbsp;·&nbsp; Synthesis Software Technologies
+  <div class="ccs-footer-links">
+    <a href="dont-get-got.html">Don't Get Got</a>
+    &nbsp;·&nbsp;
+    <a href="know-before-you-go.html">Know Before You Go</a>
+  </div>
+</footer>
+```
