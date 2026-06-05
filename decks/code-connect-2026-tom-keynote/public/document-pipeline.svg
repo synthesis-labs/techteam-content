@@ -3,8 +3,9 @@
   <title>A document as a pipeline</title>
   <desc>Two zones joined by an approval gate. Left zone, "Codebase": one or more Agents and a Human work on a
     git-persisted codebase made of three parts — Source files, Long-term memory, and Work in progress. Agents touch
-    all three; the human contributes to Work. An iterate loop closes the cycle. Right zone, "Release": once approved,
-    the sources flow through Render, then Publish, then Distribute.</desc>
+    all three; the human contributes to Work. Both Agents and the Human reach for a shared set of Tools. An iterate
+    loop closes the cycle. Right zone, "Release": once approved, the sources flow through Render, then Publish, then
+    Distribute.</desc>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6"
@@ -54,6 +55,10 @@
   <rect x="48" y="92" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#4D7EF7" stroke-width="0.75" />
   <text class="th" x="123" y="128" text-anchor="middle" fill="#1A1F2E">Agents</text>
 
+  <!-- tools: shared by agents and human -->
+  <rect x="48" y="191" width="150" height="60" rx="10" fill="#4D7EF7" stroke="#4D7EF7" stroke-width="0.75" />
+  <text class="th" x="123" y="227" text-anchor="middle" fill="#FFFFFF">Tools</text>
+
   <!-- human -->
   <rect x="48" y="290" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#6B7280" stroke-width="0.75" />
   <text class="th" x="123" y="326" text-anchor="middle" fill="#1A1F2E">Human</text>
@@ -89,6 +94,12 @@
   <line x1="200" y1="322" x2="229" y2="318" stroke="#6B7280" stroke-width="1.5" fill="none"
     marker-end="url(#arrow)" />
   <text class="ts" x="214" y="312" text-anchor="middle" fill="#6B7280">review</text>
+
+  <!-- tools shared: agents and human both reach for tools -->
+  <line x1="123" y1="152" x2="123" y2="189" stroke="#4D7EF7" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
+  <line x1="123" y1="290" x2="123" y2="253" stroke="#6B7280" stroke-width="1.5" fill="none"
+    marker-end="url(#arrow)" />
 
   <!-- ═══ ZONE 2: release ═══ -->
   <rect x="440" y="28" width="460" height="344" rx="18" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="0.5" />

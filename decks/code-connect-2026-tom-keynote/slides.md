@@ -159,10 +159,10 @@ imageAlt: "Always has been: wait, it's all DevOps?"
 <template #after>
 
 → Source text (Typst / Markdown)  
-→ Build pipeline (text -> pdf / html / whatever)  
+→ Build pipeline (text -> pdf / html / whatever) <span class="text-accent font-mono">(tool)</span>  
 → Committed to git  
-→ Automatically published to GitHub Pages  
-→ Agents can read, diff, and collaborate - conflict-free  
+→ Automatically published to GitHub Pages <span class="text-accent font-mono">(tool)</span>  
+→ Agents can read, diff, and collaborate - conflict-free <span class="text-accent font-mono">(tool)</span>  
 
 </template>
 </BeforeAfter>
@@ -176,7 +176,7 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 # Codebase + Pipeline
 
 <div class="flex justify-center mt-2">
-<img src="/document-pipeline.svg" class="w-full max-w-4xl" alt="Knowledge work as a codebase: agents work across source, long-term memory and work-in-progress in git while a human contributes to the work, then once approved it renders, publishes, and distributes" />
+<img src="/document-pipeline.svg" class="w-full max-w-4xl" alt="Knowledge work as a codebase: agents work across source, long-term memory and work-in-progress in git while a human contributes to the work, both sharing a common set of tools, then once approved it renders, publishes, and distributes" />
 </div>
 
 ---
@@ -196,9 +196,9 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 <template #after>
 
 → Source docs committed to git  
-→ Analysis as committed artifacts  
-→ Findings → Recommendations → Published  
-→ Every step traceable, diffable, reviewable
+→ Analysis as committed artifacts <span class="text-accent font-mono">(tool)</span>  
+→ Findings → Recommendations → Published <span class="text-accent font-mono">(tool)</span>  
+→ Every step traceable, diffable, reviewable <span class="text-accent font-mono">(tool)</span>
 
 </template>
 </BeforeAfter>
@@ -234,7 +234,7 @@ Recognising that every artifact has a source, a build, and a release. Treat it l
 
 <div class="mt-6 px-4 py-3 rounded" style="background:#EEF2FF;border-left:3px solid #4D7EF7;font-style:italic;font-size:0.9rem;color:#0D1120;">
 "Morning Claude, please update this proposal with the new ZAR/EUR rates, and add a 30 day acceptance window to protect for forex movement."
-<div class="mt-2" style="font-style:normal;font-size:0.8rem;color:#6B7280;">(Agent restores state from git, finds the proposal, queries the new rate, updates the document and commits + publishes it)</div>
+<div class="mt-2" style="font-style:normal;font-size:0.8rem;color:#6B7280;">(Agent restores state from git, finds the proposal, queries the new rate <span class="text-accent font-mono">(tool)</span>, updates the document and commits + publishes it <span class="text-accent font-mono">(tool)</span>)</div>
 </div>
 
 <Principle class="mt-4">
